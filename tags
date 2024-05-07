@@ -1,0 +1,1780 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS	hping2.h	85;"	d
+ABS_OFFSETICMP	hping2.h	107;"	d
+ABS_OFFSETIP	hping2.h	105;"	d
+ABS_OFFSETTCP	hping2.h	106;"	d
+ABS_OFFSETUDP	hping2.h	108;"	d
+ADBUF_INCR	adbuf.h	21;"	d
+ADBUF_ITOABUFSZ	adbuf.c	213;"	d	file:
+ADBUF_PRINTF_BUFSZ	adbuf.c	277;"	d	file:
+AGO_ALONE	antigetopt.h	/^enum { AGO_EOF=4000, AGO_ALONE, AGO_UNKNOWN, AGO_REQARG, AGO_RESET, AGO_AMBIG };$/;"	e	enum:__anon3
+AGO_AMBIG	antigetopt.h	/^enum { AGO_EOF=4000, AGO_ALONE, AGO_UNKNOWN, AGO_REQARG, AGO_RESET, AGO_AMBIG };$/;"	e	enum:__anon3
+AGO_ENDOFLIST	antigetopt.h	14;"	d
+AGO_EOF	antigetopt.h	/^enum { AGO_EOF=4000, AGO_ALONE, AGO_UNKNOWN, AGO_REQARG, AGO_RESET, AGO_AMBIG };$/;"	e	enum:__anon3
+AGO_EXCEPT0	antigetopt.h	11;"	d
+AGO_EXCEPT1	antigetopt.h	12;"	d
+AGO_EXCEPT2	antigetopt.h	13;"	d
+AGO_LIST_TERM	antigetopt.h	17;"	d
+AGO_NEEDARG	antigetopt.h	9;"	d
+AGO_NOARG	antigetopt.h	8;"	d
+AGO_OPTARG	antigetopt.h	10;"	d
+AGO_REQARG	antigetopt.h	/^enum { AGO_EOF=4000, AGO_ALONE, AGO_UNKNOWN, AGO_REQARG, AGO_RESET, AGO_AMBIG };$/;"	e	enum:__anon3
+AGO_RESET	antigetopt.h	/^enum { AGO_EOF=4000, AGO_ALONE, AGO_UNKNOWN, AGO_REQARG, AGO_RESET, AGO_AMBIG };$/;"	e	enum:__anon3
+AGO_UNKNOWN	antigetopt.h	/^enum { AGO_EOF=4000, AGO_ALONE, AGO_UNKNOWN, AGO_REQARG, AGO_RESET, AGO_AMBIG };$/;"	e	enum:__anon3
+AMB_ERRSTRING	antigetopt.c	145;"	d	file:
+APD_MAX_LEN	script.c	262;"	d	file:
+AR	Makefile	/^AR=\/usr\/bin\/ar$/;"	m
+ARG_LONG_ERRSTRING	antigetopt.c	144;"	d	file:
+ARG_SHORT_ERRSTRING	antigetopt.c	143;"	d	file:
+ARSOBJ	Makefile	/^ARSOBJ = ars.o apd.o split.o rapd.o$/;"	m
+ARS_BYTESEX_H	bytesex.h	8;"	d
+ARS_DATA_BUF_SIZE	apd.c	855;"	d	file:
+ARS_DEF_LAYER	apd.c	84;"	d	file:
+ARS_DKINFO_SIZE	apd.c	80;"	d	file:
+ARS_DONTTAKE	ars.h	387;"	d
+ARS_ERROR	ars.h	52;"	d
+ARS_ERR_BUFSZ	ars.h	356;"	d
+ARS_G_CBRACE	apd.c	67;"	d	file:
+ARS_G_COMMA_OR_CBRACE	apd.c	68;"	d	file:
+ARS_G_EQUAL	apd.c	71;"	d	file:
+ARS_G_FIELD_OR_CBRACE	apd.c	64;"	d	file:
+ARS_G_LAYER	apd.c	63;"	d	file:
+ARS_G_LEN_OR_PLUS	apd.c	69;"	d	file:
+ARS_G_OBRACE_OR_PLUS	apd.c	66;"	d	file:
+ARS_G_PLUS	apd.c	70;"	d	file:
+ARS_G_VALUE	apd.c	65;"	d	file:
+ARS_ICMPHDR_SIZE	ars.h	58;"	d
+ARS_ICMP_ADDRESS	ars.h	145;"	d
+ARS_ICMP_ADDRESSREPLY	ars.h	146;"	d
+ARS_ICMP_DEST_UNREACH	ars.h	135;"	d
+ARS_ICMP_ECHO	ars.h	138;"	d
+ARS_ICMP_ECHOREPLY	ars.h	134;"	d
+ARS_ICMP_EXC_FRAGTIME	ars.h	175;"	d
+ARS_ICMP_EXC_TTL	ars.h	174;"	d
+ARS_ICMP_INFO_REPLY	ars.h	144;"	d
+ARS_ICMP_INFO_REQUEST	ars.h	143;"	d
+ARS_ICMP_PARAMETERPROB	ars.h	140;"	d
+ARS_ICMP_REDIRECT	ars.h	137;"	d
+ARS_ICMP_REDIR_HOST	ars.h	169;"	d
+ARS_ICMP_REDIR_HOSTTOS	ars.h	171;"	d
+ARS_ICMP_REDIR_NET	ars.h	168;"	d
+ARS_ICMP_REDIR_NETTOS	ars.h	170;"	d
+ARS_ICMP_SOURCE_QUENCH	ars.h	136;"	d
+ARS_ICMP_TIMESTAMP	ars.h	141;"	d
+ARS_ICMP_TIMESTAMPREPLY	ars.h	142;"	d
+ARS_ICMP_TIME_EXCEEDED	ars.h	139;"	d
+ARS_ICMP_UNR_FRAG_NEEDED	ars.h	153;"	d
+ARS_ICMP_UNR_HOST	ars.h	150;"	d
+ARS_ICMP_UNR_HOST_ANO	ars.h	159;"	d
+ARS_ICMP_UNR_HOST_UNR_TOS	ars.h	161;"	d
+ARS_ICMP_UNR_ISOLATED_HOST	ars.h	157;"	d
+ARS_ICMP_UNR_NET	ars.h	149;"	d
+ARS_ICMP_UNR_NET_ANO	ars.h	158;"	d
+ARS_ICMP_UNR_NET_UNR_TOS	ars.h	160;"	d
+ARS_ICMP_UNR_PKT_FILTERED	ars.h	162;"	d
+ARS_ICMP_UNR_PORT	ars.h	152;"	d
+ARS_ICMP_UNR_PREC_CUTOFF	ars.h	164;"	d
+ARS_ICMP_UNR_PREC_VIOLATION	ars.h	163;"	d
+ARS_ICMP_UNR_PROT	ars.h	151;"	d
+ARS_ICMP_UNR_SR_FAILED	ars.h	154;"	d
+ARS_ICMP_UNR_UNK_HOST	ars.h	156;"	d
+ARS_ICMP_UNR_UNK_NET	ars.h	155;"	d
+ARS_IF_IPV4	ars.h	444;"	d
+ARS_IF_IPV6	ars.h	445;"	d
+ARS_IF_LOOP	ars.h	443;"	d
+ARS_IF_MAX_IFACE	ars.h	448;"	d
+ARS_IF_MISCONF	ars.h	446;"	d
+ARS_IF_NAME_SIZE	ars.h	449;"	d
+ARS_IF_UP	ars.h	442;"	d
+ARS_IGRPENTRY_SIZE	ars.h	64;"	d
+ARS_IGRPHDR_SIZE	ars.h	63;"	d
+ARS_IGRP_OPCODE_REQUEST	ars.h	179;"	d
+ARS_IGRP_OPCODE_UPDATE	ars.h	178;"	d
+ARS_INET6_ADDRSTRLEN	ars.h	111;"	d
+ARS_INET_ADDRSTRLEN	ars.h	110;"	d
+ARS_INVALID	ars.h	55;"	d
+ARS_IPHDR_SIZE	ars.h	61;"	d
+ARS_IPOPT_CLASS	ars.h	78;"	d
+ARS_IPOPT_CLASS_MASK	ars.h	74;"	d
+ARS_IPOPT_CONTROL	ars.h	81;"	d
+ARS_IPOPT_COPIED	ars.h	77;"	d
+ARS_IPOPT_COPY	ars.h	73;"	d
+ARS_IPOPT_END	ars.h	86;"	d
+ARS_IPOPT_EOL	ars.h	102;"	d
+ARS_IPOPT_LSRR	ars.h	89;"	d
+ARS_IPOPT_MEASUREMENT	ars.h	83;"	d
+ARS_IPOPT_MINOFF	ars.h	99;"	d
+ARS_IPOPT_NOOP	ars.h	87;"	d
+ARS_IPOPT_NOP	ars.h	101;"	d
+ARS_IPOPT_NUMBER	ars.h	79;"	d
+ARS_IPOPT_NUMBER_MASK	ars.h	75;"	d
+ARS_IPOPT_OFFSET	ars.h	98;"	d
+ARS_IPOPT_OLEN	ars.h	97;"	d
+ARS_IPOPT_OPTVAL	ars.h	96;"	d
+ARS_IPOPT_RA	ars.h	94;"	d
+ARS_IPOPT_RESERVED1	ars.h	82;"	d
+ARS_IPOPT_RESERVED2	ars.h	84;"	d
+ARS_IPOPT_RR	ars.h	91;"	d
+ARS_IPOPT_SEC	ars.h	88;"	d
+ARS_IPOPT_SID	ars.h	92;"	d
+ARS_IPOPT_SSRR	ars.h	93;"	d
+ARS_IPOPT_TIMESTAMP	ars.h	90;"	d
+ARS_IPOPT_TS	ars.h	103;"	d
+ARS_IPOPT_TS_PRESPEC	ars.h	107;"	d
+ARS_IPOPT_TS_TSANDADDR	ars.h	106;"	d
+ARS_IPOPT_TS_TSONLY	ars.h	105;"	d
+ARS_IPPROTO_AH	in.h	23;"	d
+ARS_IPPROTO_COMP	in.h	30;"	d
+ARS_IPPROTO_DSTOPTS	in.h	26;"	d
+ARS_IPPROTO_EGP	in.h	11;"	d
+ARS_IPPROTO_ENCAP	in.h	28;"	d
+ARS_IPPROTO_ESP	in.h	22;"	d
+ARS_IPPROTO_FRAGMENT	in.h	19;"	d
+ARS_IPPROTO_GRE	in.h	21;"	d
+ARS_IPPROTO_HOPOPTS	in.h	6;"	d
+ARS_IPPROTO_ICMP	in.h	7;"	d
+ARS_IPPROTO_ICMPV6	in.h	24;"	d
+ARS_IPPROTO_IDP	in.h	15;"	d
+ARS_IPPROTO_IGMP	in.h	8;"	d
+ARS_IPPROTO_IGRP	in.h	12;"	d
+ARS_IPPROTO_IP	in.h	5;"	d
+ARS_IPPROTO_IPIP	in.h	9;"	d
+ARS_IPPROTO_IPV6	in.h	17;"	d
+ARS_IPPROTO_MTP	in.h	27;"	d
+ARS_IPPROTO_NONE	in.h	25;"	d
+ARS_IPPROTO_PIM	in.h	29;"	d
+ARS_IPPROTO_PUP	in.h	13;"	d
+ARS_IPPROTO_RAW	in.h	31;"	d
+ARS_IPPROTO_ROUTING	in.h	18;"	d
+ARS_IPPROTO_RSVP	in.h	20;"	d
+ARS_IPPROTO_TCP	in.h	10;"	d
+ARS_IPPROTO_TP	in.h	16;"	d
+ARS_IPPROTO_UDP	in.h	14;"	d
+ARS_IP_DF	ars.h	70;"	d
+ARS_IP_MF	ars.h	69;"	d
+ARS_IP_RF	ars.h	71;"	d
+ARS_LAST_LAYER	ars.h	415;"	d
+ARS_MAX_IPOPTLEN	ars.h	100;"	d
+ARS_MAX_IP_SIZE	ars.h	67;"	d
+ARS_MAX_LAYER	ars.h	355;"	d
+ARS_MAX_TSIZE	apd.c	25;"	d	file:
+ARS_MC_FINAL	ars.h	421;"	d
+ARS_MC_INIT	ars.h	419;"	d
+ARS_MC_UPDATE	ars.h	420;"	d
+ARS_NOMEM	ars.h	54;"	d
+ARS_NOSPACE	ars.h	53;"	d
+ARS_NR_ICMP_UNREACH	ars.h	165;"	d
+ARS_OK	ars.h	51;"	d
+ARS_OPT_RAPD_HEXDATA	ars.h	465;"	d
+ARS_PSEUDOHDR_SIZE	ars.h	62;"	d
+ARS_SPLIT_DONE	split.c	67;"	d	file:
+ARS_SPLIT_FBADCKSUM	ars.h	462;"	d
+ARS_SPLIT_FTRUNC	ars.h	461;"	d
+ARS_SPLIT_GET_DATA	split.c	76;"	d	file:
+ARS_SPLIT_GET_ICMP	split.c	70;"	d	file:
+ARS_SPLIT_GET_IGRP	split.c	74;"	d	file:
+ARS_SPLIT_GET_IGRPENTRY	split.c	75;"	d	file:
+ARS_SPLIT_GET_IP	split.c	68;"	d	file:
+ARS_SPLIT_GET_IPOPT	split.c	69;"	d	file:
+ARS_SPLIT_GET_TCP	split.c	72;"	d	file:
+ARS_SPLIT_GET_TCPOPT	split.c	73;"	d	file:
+ARS_SPLIT_GET_UDP	split.c	71;"	d	file:
+ARS_TAKE	ars.h	386;"	d
+ARS_TAKE_ICMP_CKSUM	ars.h	401;"	d
+ARS_TAKE_IGRP_CKSUM	ars.h	412;"	d
+ARS_TAKE_IPOPT_PTR	ars.h	398;"	d
+ARS_TAKE_IP_CKSUM	ars.h	395;"	d
+ARS_TAKE_IP_HDRLEN	ars.h	392;"	d
+ARS_TAKE_IP_PROTOCOL	ars.h	394;"	d
+ARS_TAKE_IP_TOTLEN	ars.h	393;"	d
+ARS_TAKE_IP_VERSION	ars.h	391;"	d
+ARS_TAKE_NONE	ars.h	388;"	d
+ARS_TAKE_TCP_CKSUM	ars.h	409;"	d
+ARS_TAKE_TCP_HDRLEN	ars.h	408;"	d
+ARS_TAKE_UDP_CKSUM	ars.h	404;"	d
+ARS_TAKE_UDP_LEN	ars.h	405;"	d
+ARS_TCPHDR_SIZE	ars.h	60;"	d
+ARS_TCPOPT_ECHOREPLY	ars.h	121;"	d
+ARS_TCPOPT_ECHOREQUEST	ars.h	120;"	d
+ARS_TCPOPT_EOL	ars.h	114;"	d
+ARS_TCPOPT_MAXSEG	ars.h	116;"	d
+ARS_TCPOPT_NOP	ars.h	115;"	d
+ARS_TCPOPT_SACK	ars.h	119;"	d
+ARS_TCPOPT_SACK_PERM	ars.h	118;"	d
+ARS_TCPOPT_TIMESTAMP	ars.h	122;"	d
+ARS_TCPOPT_WINDOW	ars.h	117;"	d
+ARS_TCP_TH_ACK	ars.h	128;"	d
+ARS_TCP_TH_FIN	ars.h	124;"	d
+ARS_TCP_TH_PUSH	ars.h	127;"	d
+ARS_TCP_TH_RST	ars.h	126;"	d
+ARS_TCP_TH_SYN	ars.h	125;"	d
+ARS_TCP_TH_URG	ars.h	129;"	d
+ARS_TCP_TH_X	ars.h	130;"	d
+ARS_TCP_TH_Y	ars.h	131;"	d
+ARS_TYPE_DATA	ars.h	369;"	d
+ARS_TYPE_ICMP	ars.h	363;"	d
+ARS_TYPE_IGRP	ars.h	367;"	d
+ARS_TYPE_IGRPENTRY	ars.h	368;"	d
+ARS_TYPE_IP	ars.h	361;"	d
+ARS_TYPE_IPOPT	ars.h	362;"	d
+ARS_TYPE_NULL	ars.h	360;"	d
+ARS_TYPE_SIZE	ars.h	359;"	d
+ARS_TYPE_TCP	ars.h	365;"	d
+ARS_TYPE_TCPOPT	ars.h	366;"	d
+ARS_TYPE_UDP	ars.h	364;"	d
+ARS_UDPHDR_SIZE	ars.h	59;"	d
+ATOMBITS	sbignum.h	35;"	d
+ATOMBYTES	sbignum.h	14;"	d
+BIND_DPORT	hping2.h	131;"	d
+BIND_NONE	hping2.h	130;"	d
+BIND_TTL	hping2.h	132;"	d
+BOGUS_SET_F	apd.c	92;"	d	file:
+BT_16BITBASE	gentables.c	138;"	d	file:
+BT_32BITBASE	gentables.c	139;"	d	file:
+BT_8BITBASE	gentables.c	137;"	d	file:
+BYTE_ORDER_BIG_ENDIAN	bytesex.h	20;"	d
+BYTE_ORDER_LITTLE_ENDIAN	bytesex.h	13;"	d
+BigBasicObjCmd	script.c	/^static int BigBasicObjCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+BigCmpObjCmd	script.c	/^static int BigCmpObjCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+BigPowObjCmd	script.c	/^static int BigPowObjCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+BigRandObjCmd	script.c	/^static int BigRandObjCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+BigSrandObjCmd	script.c	/^static int BigSrandObjCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+CC	Makefile	/^CC= gcc$/;"	m
+CCOPT	Makefile	/^CCOPT= -O2 -Wall  -I\/usr\/include\/tcl8.4 -DUSE_TCL$/;"	m
+COMPILE_TIME	Makefile	/^COMPILE_TIME=$/;"	m
+CONTACTS	release.h	16;"	d
+COUNTREACHED_TIMEOUT	hping2.h	62;"	d
+DEBUG	Makefile	/^DEBUG= -g$/;"	m
+DEFAULT_BIND	hping2.h	133;"	d
+DEFAULT_COUNT	hping2.h	114;"	d
+DEFAULT_DPORT	hping2.h	112;"	d
+DEFAULT_ICMP_CKSUM	hping2.h	125;"	d
+DEFAULT_ICMP_CODE	hping2.h	119;"	d
+DEFAULT_ICMP_IP_ID	hping2.h	124;"	d
+DEFAULT_ICMP_IP_IHL	hping2.h	121;"	d
+DEFAULT_ICMP_IP_PROTOCOL	hping2.h	126;"	d
+DEFAULT_ICMP_IP_TOS	hping2.h	122;"	d
+DEFAULT_ICMP_IP_TOT_LEN	hping2.h	123;"	d
+DEFAULT_ICMP_IP_VERSION	hping2.h	120;"	d
+DEFAULT_ICMP_TYPE	hping2.h	118;"	d
+DEFAULT_INITSPORT	hping2.h	113;"	d
+DEFAULT_RAW_IP_PROTOCOL	hping2.h	127;"	d
+DEFAULT_SENDINGWAIT	hping2.h	111;"	d
+DEFAULT_SRCWINSIZE	hping2.h	116;"	d
+DEFAULT_TRACEROUTE_TTL	hping2.h	128;"	d
+DEFAULT_TTL	hping2.h	115;"	d
+DEFAULT_VIRTUAL_MTU	hping2.h	117;"	d
+DF	hping2.h	137;"	d
+DIVATOMBITS_SHIFT	sbignum.c	131;"	d	file:
+DIVATOMBITS_SHIFT	sbignum.c	133;"	d	file:
+DIVATOMBITS_SHIFT	sbignum.c	135;"	d	file:
+DupMpzInternalRep	script.c	/^static void DupMpzInternalRep(Tcl_Obj *srcPtr, Tcl_Obj *copyPtr);$/;"	p	file:	signature:(Tcl_Obj *srcPtr, Tcl_Obj *copyPtr)
+DupMpzInternalRep	script.c	/^void DupMpzInternalRep(Tcl_Obj *srcPtr, Tcl_Obj *copyPtr)$/;"	f	signature:(Tcl_Obj *srcPtr, Tcl_Obj *copyPtr)
+EFL	gentables.c	20;"	d	file:
+ETHHDR_SIZE	hping2.h	94;"	d
+ETH_P_IP	hping2.h	82;"	d
+FALSE	ars.h	26;"	d
+FALSE	hping2.h	73;"	d
+FreeMpzInternalRep	script.c	/^static void FreeMpzInternalRep(Tcl_Obj *objPtr);$/;"	p	file:	signature:(Tcl_Obj *objPtr)
+FreeMpzInternalRep	script.c	/^void FreeMpzInternalRep(Tcl_Obj *objPtr)$/;"	f	signature:(Tcl_Obj *objPtr)
+GetPacketDescription	script.c	/^char *GetPacketDescription(char *data, int len, int hexdata)$/;"	f	signature:(char *data, int len, int hexdata)
+HCMP_CHPROTO	hcmp.h	16;"	d
+HCMP_RESTART	hcmp.h	13;"	d
+HCMP_SOURCE_QUENCH	hcmp.h	14;"	d
+HCMP_SOURCE_STIRUP	hcmp.h	15;"	d
+HPING3_FIXTYPES_H	fixtypes.h	2;"	d
+HPING_HSTRING_H	hstring.h	2;"	d
+HPING_IFACE_MAX	interface.h	82;"	d
+HPING_IFADDR_MAX	interface.h	83;"	d
+HPING_IFNAME_LEN	interface.h	81;"	d
+HPING_IF_MAX	script.c	36;"	d	file:
+HpingChecksumCmd	script.c	/^static int HpingChecksumCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingDelFieldCmd	script.c	/^static int HpingDelFieldCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingEventCmd	script.c	/^static int HpingEventCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingEventHandler	script.c	/^void HpingEventHandler(void *clientData, int mask)$/;"	f	signature:(void *clientData, int mask)
+HpingGetFieldCmd	script.c	/^static int HpingGetFieldCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingGetInterfacesCmd	script.c	/^static int HpingGetInterfacesCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingGetOutIfAddrCmd	script.c	/^static int HpingGetOutIfAddrCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingHasFieldCmd	script.c	/^static int HpingHasFieldCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingObjCmd	script.c	/^static int HpingObjCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingReadPacket	script.c	/^static int HpingReadPacket(struct recv_handler *ra, char *pkt, int pktlen, int timeout)$/;"	f	file:	signature:(struct recv_handler *ra, char *pkt, int pktlen, int timeout)
+HpingRecvCloseHandler	script.c	/^static void HpingRecvCloseHandler(struct recv_handler *ra)$/;"	f	file:	signature:(struct recv_handler *ra)
+HpingRecvCmd	script.c	/^static int HpingRecvCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingRecvGetHandler	script.c	/^static struct recv_handler *HpingRecvGetHandler(struct recv_handler *ra, int len, char *ifname, Tcl_Interp *interp)$/;"	f	file:	signature:(struct recv_handler *ra, int len, char *ifname, Tcl_Interp *interp)
+HpingRecvInit	script.c	/^static void HpingRecvInit(struct recv_handler *ra, int len)$/;"	f	file:	signature:(struct recv_handler *ra, int len)
+HpingRecvPackets	script.c	/^static int HpingRecvPackets(struct recv_handler *ra, Tcl_Interp *interp, Tcl_Obj *o, int timeout, int maxpackets, int rapd, int hexdata)$/;"	f	file:	signature:(struct recv_handler *ra, Tcl_Interp *interp, Tcl_Obj *o, int timeout, int maxpackets, int rapd, int hexdata)
+HpingRecvRawCmd	script.c	/^static int HpingRecvRawCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingResolveCmd	script.c	/^static int HpingResolveCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingSendCmd	script.c	/^static int HpingSendCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingSendRawCmd	script.c	/^static int HpingSendRawCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingSetFieldCmd	script.c	/^static int HpingSetFieldCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingSetFilterCmd	script.c	/^static int HpingSetFilterCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[])
+HpingTcl_AppInit	script.c	/^static int HpingTcl_AppInit(Tcl_Interp *interp)$/;"	f	file:	signature:(Tcl_Interp *interp)
+ICMPHDR_SIZE	hping2.h	49;"	d
+ICMP_ADDRESS	hping2.h	215;"	d
+ICMP_ADDRESSREPLY	hping2.h	216;"	d
+ICMP_DEST_UNREACH	hping2.h	205;"	d
+ICMP_ECHO	hping2.h	208;"	d
+ICMP_ECHOREPLY	hping2.h	204;"	d
+ICMP_EXC_FRAGTIME	hping2.h	245;"	d
+ICMP_EXC_TTL	hping2.h	244;"	d
+ICMP_FRAG_NEEDED	hping2.h	223;"	d
+ICMP_HOST_ANO	hping2.h	229;"	d
+ICMP_HOST_ISOLATED	hping2.h	227;"	d
+ICMP_HOST_UNKNOWN	hping2.h	226;"	d
+ICMP_HOST_UNREACH	hping2.h	220;"	d
+ICMP_HOST_UNR_TOS	hping2.h	231;"	d
+ICMP_INFO_REPLY	hping2.h	214;"	d
+ICMP_INFO_REQUEST	hping2.h	213;"	d
+ICMP_NET_ANO	hping2.h	228;"	d
+ICMP_NET_UNKNOWN	hping2.h	225;"	d
+ICMP_NET_UNREACH	hping2.h	219;"	d
+ICMP_NET_UNR_TOS	hping2.h	230;"	d
+ICMP_PARAMETERPROB	hping2.h	210;"	d
+ICMP_PKT_FILTERED	hping2.h	232;"	d
+ICMP_PORT_UNREACH	hping2.h	222;"	d
+ICMP_PREC_CUTOFF	hping2.h	234;"	d
+ICMP_PREC_VIOLATION	hping2.h	233;"	d
+ICMP_PROT_UNREACH	hping2.h	221;"	d
+ICMP_REDIRECT	hping2.h	207;"	d
+ICMP_REDIR_HOST	hping2.h	239;"	d
+ICMP_REDIR_HOSTTOS	hping2.h	241;"	d
+ICMP_REDIR_NET	hping2.h	238;"	d
+ICMP_REDIR_NETTOS	hping2.h	240;"	d
+ICMP_SOURCE_QUENCH	hping2.h	206;"	d
+ICMP_SR_FAILED	hping2.h	224;"	d
+ICMP_TIMESTAMP	hping2.h	211;"	d
+ICMP_TIMESTAMPREPLY	hping2.h	212;"	d
+ICMP_TIME_EXCEEDED	hping2.h	209;"	d
+IERR_ERRSTRING	antigetopt.c	146;"	d	file:
+IFNAMSIZ	hping2.h	76;"	d
+INSTALL_MANPATH	Makefile	/^INSTALL_MANPATH=\/usr\/local\/man$/;"	m
+IPHDR_SIZE	hping2.h	58;"	d
+IPOPTRR_MAX_ENTRIES	apd.c	242;"	d	file:
+IPOPTTS_MAX_ENTRIES	apd.c	293;"	d	file:
+IPOPT_CLASS	hping2.h	146;"	d
+IPOPT_CLASS_MASK	hping2.h	142;"	d
+IPOPT_CONTROL	hping2.h	149;"	d
+IPOPT_COPIED	hping2.h	145;"	d
+IPOPT_COPY	hping2.h	141;"	d
+IPOPT_END	hping2.h	154;"	d
+IPOPT_EOL	hping2.h	170;"	d
+IPOPT_LSRR	hping2.h	157;"	d
+IPOPT_MEASUREMENT	hping2.h	151;"	d
+IPOPT_MINOFF	hping2.h	167;"	d
+IPOPT_NOOP	hping2.h	155;"	d
+IPOPT_NOP	hping2.h	169;"	d
+IPOPT_NUMBER	hping2.h	147;"	d
+IPOPT_NUMBER_MASK	hping2.h	143;"	d
+IPOPT_OFFSET	hping2.h	166;"	d
+IPOPT_OLEN	hping2.h	165;"	d
+IPOPT_OPTVAL	hping2.h	164;"	d
+IPOPT_RA	hping2.h	162;"	d
+IPOPT_RESERVED1	hping2.h	150;"	d
+IPOPT_RESERVED2	hping2.h	152;"	d
+IPOPT_RR	hping2.h	159;"	d
+IPOPT_SEC	hping2.h	156;"	d
+IPOPT_SID	hping2.h	160;"	d
+IPOPT_SSRR	hping2.h	161;"	d
+IPOPT_TIMESTAMP	hping2.h	158;"	d
+IPOPT_TS	hping2.h	171;"	d
+IPOPT_TS_PRESPEC	hping2.h	175;"	d
+IPOPT_TS_TSANDADDR	hping2.h	174;"	d
+IPOPT_TS_TSONLY	hping2.h	173;"	d
+IP_MAX_SIZE	hping2.h	101;"	d
+LC_ALL	docs/french/Makefile	/^	groff -t -e -mandoc -Tlatin1 hping2-fr.8 | LC_ALL=fr_FR.ISO-8859-1 col -bx | uniq > hping2-fr.8.txt$/;"	m
+LOHDR_SIZE	hping2.h	95;"	d
+MAX	ars.h	35;"	d
+MAX	sbignum.c	95;"	d	file:
+MAXPORT	scan.c	55;"	d	file:
+MAX_IPOPTLEN	hping2.h	168;"	d
+MF	hping2.h	136;"	d
+MII_ANAR	interface.h	55;"	d
+MII_ANER	interface.h	72;"	d
+MII_ANER_LP_AN_ABLE	interface.h	77;"	d
+MII_ANER_LP_NP_ABLE	interface.h	74;"	d
+MII_ANER_MULT_FAULT	interface.h	73;"	d
+MII_ANER_NP_ABLE	interface.h	75;"	d
+MII_ANER_PAGE_RX	interface.h	76;"	d
+MII_ANLPAR	interface.h	57;"	d
+MII_AN_100BASET4	interface.h	63;"	d
+MII_AN_100BASETX_FD	interface.h	64;"	d
+MII_AN_100BASETX_HD	interface.h	65;"	d
+MII_AN_10BASET_FD	interface.h	66;"	d
+MII_AN_10BASET_HD	interface.h	67;"	d
+MII_AN_ABILITY_MASK	interface.h	61;"	d
+MII_AN_ACK	interface.h	59;"	d
+MII_AN_FLOW_CONTROL	interface.h	62;"	d
+MII_AN_NEXT_PAGE	interface.h	58;"	d
+MII_AN_PROT_802_3	interface.h	69;"	d
+MII_AN_PROT_MASK	interface.h	68;"	d
+MII_AN_REMOTE_FAULT	interface.h	60;"	d
+MII_BMCR	interface.h	25;"	d
+MII_BMCR_100MBIT	interface.h	28;"	d
+MII_BMCR_AN_ENA	interface.h	29;"	d
+MII_BMCR_COLTEST	interface.h	33;"	d
+MII_BMCR_DUPLEX	interface.h	32;"	d
+MII_BMCR_ISOLATE	interface.h	30;"	d
+MII_BMCR_LOOPBACK	interface.h	27;"	d
+MII_BMCR_RESET	interface.h	26;"	d
+MII_BMCR_RESTART	interface.h	31;"	d
+MII_BMSR	interface.h	36;"	d
+MII_BMSR_100BASET4	interface.h	38;"	d
+MII_BMSR_100BASETX_FD	interface.h	39;"	d
+MII_BMSR_100BASETX_HD	interface.h	40;"	d
+MII_BMSR_10BASET_FD	interface.h	41;"	d
+MII_BMSR_10BASET_HD	interface.h	42;"	d
+MII_BMSR_AN_ABLE	interface.h	46;"	d
+MII_BMSR_AN_COMPLETE	interface.h	44;"	d
+MII_BMSR_CAP_MASK	interface.h	37;"	d
+MII_BMSR_EXT_CAP	interface.h	49;"	d
+MII_BMSR_JABBER	interface.h	48;"	d
+MII_BMSR_LINK_VALID	interface.h	47;"	d
+MII_BMSR_NO_PREAMBLE	interface.h	43;"	d
+MII_BMSR_REMOTE_FAULT	interface.h	45;"	d
+MII_PHY_ID1	interface.h	51;"	d
+MII_PHY_ID2	interface.h	52;"	d
+MIN	ars.h	31;"	d
+MIN	sbignum.c	96;"	d	file:
+MODATOMBITS_MASK	sbignum.c	137;"	d	file:
+MPZ_ATOMSZ	sbignum.h	37;"	d
+MPZ_BASE	sbignum.h	40;"	d
+MPZ_MASK	sbignum.h	38;"	d
+MPZ_SHIFT	sbignum.h	39;"	d
+MUST_BE_UNREACHED	sendhcmp.c	21;"	d	file:
+NF	hping2.h	138;"	d
+NR_ICMP_UNREACH	hping2.h	235;"	d
+OBJ	Makefile	/^OBJ=	main.o getifname.o getlhs.o \\$/;"	m
+OPT_ACK	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_APD_SEND	parseoptions.c	/^	OPT_ICMP_GW, OPT_FORCE_ICMP, OPT_APD_SEND, OPT_SCAN, OPT_FASTER,$/;"	e	enum:__anon4	file:
+OPT_BADCKSUM	parseoptions.c	/^	OPT_SAFE, OPT_TRACEROUTE, OPT_TOS, OPT_MTU, OPT_SEQNUM, OPT_BADCKSUM,$/;"	e	enum:__anon4	file:
+OPT_BASEPORT	parseoptions.c	/^	OPT_HELP, OPT_VERSION, OPT_DESTPORT, OPT_BASEPORT, OPT_TTL, OPT_ID,$/;"	e	enum:__anon4	file:
+OPT_BEEP	parseoptions.c	/^	OPT_BEEP, OPT_FLOOD };$/;"	e	enum:__anon4	file:
+OPT_BIND	parseoptions.c	/^	OPT_UDP, OPT_BIND, OPT_UNBIND, OPT_DEBUG, OPT_VERBOSE, OPT_WINID,$/;"	e	enum:__anon4	file:
+OPT_COUNT	parseoptions.c	/^enum {	OPT_COUNT, OPT_INTERVAL, OPT_NUMERIC, OPT_QUIET, OPT_INTERFACE,$/;"	e	enum:__anon4	file:
+OPT_DATA	parseoptions.c	/^	OPT_FRAGOFF, OPT_TCPOFF, OPT_REL, OPT_DATA, OPT_RAWIP, OPT_ICMP,$/;"	e	enum:__anon4	file:
+OPT_DEBUG	parseoptions.c	/^	OPT_UDP, OPT_BIND, OPT_UNBIND, OPT_DEBUG, OPT_VERBOSE, OPT_WINID,$/;"	e	enum:__anon4	file:
+OPT_DESTPORT	parseoptions.c	/^	OPT_HELP, OPT_VERSION, OPT_DESTPORT, OPT_BASEPORT, OPT_TTL, OPT_ID,$/;"	e	enum:__anon4	file:
+OPT_DONTFRAG	parseoptions.c	/^	OPT_URG, OPT_XMAS, OPT_YMAS, OPT_FRAG, OPT_MOREFRAG, OPT_DONTFRAG,$/;"	e	enum:__anon4	file:
+OPT_DUMP	parseoptions.c	/^	OPT_KEEP, OPT_FILE, OPT_DUMP, OPT_PRINT, OPT_SIGN, OPT_LISTEN,$/;"	e	enum:__anon4	file:
+OPT_END	parseoptions.c	/^	OPT_SETSEQ, OPT_SETACK, OPT_ICMPTYPE, OPT_ICMPCODE, OPT_END,$/;"	e	enum:__anon4	file:
+OPT_FAST	parseoptions.c	/^	OPT_ICMP_TS, OPT_ICMP_ADDR, OPT_TCPEXITCODE, OPT_FAST, OPT_TR_KEEP_TTL,$/;"	e	enum:__anon4	file:
+OPT_FASTER	parseoptions.c	/^	OPT_ICMP_GW, OPT_FORCE_ICMP, OPT_APD_SEND, OPT_SCAN, OPT_FASTER,$/;"	e	enum:__anon4	file:
+OPT_FILE	parseoptions.c	/^	OPT_KEEP, OPT_FILE, OPT_DUMP, OPT_PRINT, OPT_SIGN, OPT_LISTEN,$/;"	e	enum:__anon4	file:
+OPT_FIN	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_FLOOD	parseoptions.c	/^	OPT_BEEP, OPT_FLOOD };$/;"	e	enum:__anon4	file:
+OPT_FORCE_ICMP	parseoptions.c	/^	OPT_ICMP_GW, OPT_FORCE_ICMP, OPT_APD_SEND, OPT_SCAN, OPT_FASTER,$/;"	e	enum:__anon4	file:
+OPT_FRAG	parseoptions.c	/^	OPT_URG, OPT_XMAS, OPT_YMAS, OPT_FRAG, OPT_MOREFRAG, OPT_DONTFRAG,$/;"	e	enum:__anon4	file:
+OPT_FRAGOFF	parseoptions.c	/^	OPT_FRAGOFF, OPT_TCPOFF, OPT_REL, OPT_DATA, OPT_RAWIP, OPT_ICMP,$/;"	e	enum:__anon4	file:
+OPT_HELP	parseoptions.c	/^	OPT_HELP, OPT_VERSION, OPT_DESTPORT, OPT_BASEPORT, OPT_TTL, OPT_ID,$/;"	e	enum:__anon4	file:
+OPT_ICMP	parseoptions.c	/^	OPT_FRAGOFF, OPT_TCPOFF, OPT_REL, OPT_DATA, OPT_RAWIP, OPT_ICMP,$/;"	e	enum:__anon4	file:
+OPT_ICMPCODE	parseoptions.c	/^	OPT_SETSEQ, OPT_SETACK, OPT_ICMPTYPE, OPT_ICMPCODE, OPT_END,$/;"	e	enum:__anon4	file:
+OPT_ICMPTYPE	parseoptions.c	/^	OPT_SETSEQ, OPT_SETACK, OPT_ICMPTYPE, OPT_ICMPCODE, OPT_END,$/;"	e	enum:__anon4	file:
+OPT_ICMP_ADDR	parseoptions.c	/^	OPT_ICMP_TS, OPT_ICMP_ADDR, OPT_TCPEXITCODE, OPT_FAST, OPT_TR_KEEP_TTL,$/;"	e	enum:__anon4	file:
+OPT_ICMP_CKSUM	parseoptions.c	/^	OPT_ICMP_IPLEN, OPT_ICMP_IPID, OPT_ICMP_IPPROTO, OPT_ICMP_CKSUM,$/;"	e	enum:__anon4	file:
+OPT_ICMP_DSTPORT	parseoptions.c	/^	OPT_ICMP_IPSRC, OPT_ICMP_IPDST, OPT_ICMP_SRCPORT, OPT_ICMP_DSTPORT,$/;"	e	enum:__anon4	file:
+OPT_ICMP_GW	parseoptions.c	/^	OPT_ICMP_GW, OPT_FORCE_ICMP, OPT_APD_SEND, OPT_SCAN, OPT_FASTER,$/;"	e	enum:__anon4	file:
+OPT_ICMP_HELP	parseoptions.c	/^	OPT_TCP_TIMESTAMP, OPT_TR_STOP, OPT_TR_NO_RTT, OPT_ICMP_HELP,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPDST	parseoptions.c	/^	OPT_ICMP_IPSRC, OPT_ICMP_IPDST, OPT_ICMP_SRCPORT, OPT_ICMP_DSTPORT,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPHLEN	parseoptions.c	/^	OPT_RROUTE, OPT_IPPROTO, OPT_ICMP_IPVER, OPT_ICMP_IPHLEN,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPID	parseoptions.c	/^	OPT_ICMP_IPLEN, OPT_ICMP_IPID, OPT_ICMP_IPPROTO, OPT_ICMP_CKSUM,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPLEN	parseoptions.c	/^	OPT_ICMP_IPLEN, OPT_ICMP_IPID, OPT_ICMP_IPPROTO, OPT_ICMP_CKSUM,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPPROTO	parseoptions.c	/^	OPT_ICMP_IPLEN, OPT_ICMP_IPID, OPT_ICMP_IPPROTO, OPT_ICMP_CKSUM,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPSRC	parseoptions.c	/^	OPT_ICMP_IPSRC, OPT_ICMP_IPDST, OPT_ICMP_SRCPORT, OPT_ICMP_DSTPORT,$/;"	e	enum:__anon4	file:
+OPT_ICMP_IPVER	parseoptions.c	/^	OPT_RROUTE, OPT_IPPROTO, OPT_ICMP_IPVER, OPT_ICMP_IPHLEN,$/;"	e	enum:__anon4	file:
+OPT_ICMP_SRCPORT	parseoptions.c	/^	OPT_ICMP_IPSRC, OPT_ICMP_IPDST, OPT_ICMP_SRCPORT, OPT_ICMP_DSTPORT,$/;"	e	enum:__anon4	file:
+OPT_ICMP_TS	parseoptions.c	/^	OPT_ICMP_TS, OPT_ICMP_ADDR, OPT_TCPEXITCODE, OPT_FAST, OPT_TR_KEEP_TTL,$/;"	e	enum:__anon4	file:
+OPT_ID	parseoptions.c	/^	OPT_HELP, OPT_VERSION, OPT_DESTPORT, OPT_BASEPORT, OPT_TTL, OPT_ID,$/;"	e	enum:__anon4	file:
+OPT_INTERFACE	parseoptions.c	/^enum {	OPT_COUNT, OPT_INTERVAL, OPT_NUMERIC, OPT_QUIET, OPT_INTERFACE,$/;"	e	enum:__anon4	file:
+OPT_INTERVAL	parseoptions.c	/^enum {	OPT_COUNT, OPT_INTERVAL, OPT_NUMERIC, OPT_QUIET, OPT_INTERFACE,$/;"	e	enum:__anon4	file:
+OPT_IPPROTO	parseoptions.c	/^	OPT_RROUTE, OPT_IPPROTO, OPT_ICMP_IPVER, OPT_ICMP_IPHLEN,$/;"	e	enum:__anon4	file:
+OPT_KEEP	parseoptions.c	/^	OPT_KEEP, OPT_FILE, OPT_DUMP, OPT_PRINT, OPT_SIGN, OPT_LISTEN,$/;"	e	enum:__anon4	file:
+OPT_LISTEN	parseoptions.c	/^	OPT_KEEP, OPT_FILE, OPT_DUMP, OPT_PRINT, OPT_SIGN, OPT_LISTEN,$/;"	e	enum:__anon4	file:
+OPT_LSRR	parseoptions.c	/^	OPT_RAND_DEST, OPT_RAND_SOURCE, OPT_LSRR, OPT_SSRR, OPT_ROUTE_HELP,$/;"	e	enum:__anon4	file:
+OPT_MOREFRAG	parseoptions.c	/^	OPT_URG, OPT_XMAS, OPT_YMAS, OPT_FRAG, OPT_MOREFRAG, OPT_DONTFRAG,$/;"	e	enum:__anon4	file:
+OPT_MTU	parseoptions.c	/^	OPT_SAFE, OPT_TRACEROUTE, OPT_TOS, OPT_MTU, OPT_SEQNUM, OPT_BADCKSUM,$/;"	e	enum:__anon4	file:
+OPT_NUMERIC	parseoptions.c	/^enum {	OPT_COUNT, OPT_INTERVAL, OPT_NUMERIC, OPT_QUIET, OPT_INTERFACE,$/;"	e	enum:__anon4	file:
+OPT_PRINT	parseoptions.c	/^	OPT_KEEP, OPT_FILE, OPT_DUMP, OPT_PRINT, OPT_SIGN, OPT_LISTEN,$/;"	e	enum:__anon4	file:
+OPT_PUSH	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_QUIET	parseoptions.c	/^enum {	OPT_COUNT, OPT_INTERVAL, OPT_NUMERIC, OPT_QUIET, OPT_INTERFACE,$/;"	e	enum:__anon4	file:
+OPT_RAND_DEST	parseoptions.c	/^	OPT_RAND_DEST, OPT_RAND_SOURCE, OPT_LSRR, OPT_SSRR, OPT_ROUTE_HELP,$/;"	e	enum:__anon4	file:
+OPT_RAND_SOURCE	parseoptions.c	/^	OPT_RAND_DEST, OPT_RAND_SOURCE, OPT_LSRR, OPT_SSRR, OPT_ROUTE_HELP,$/;"	e	enum:__anon4	file:
+OPT_RAWIP	parseoptions.c	/^	OPT_FRAGOFF, OPT_TCPOFF, OPT_REL, OPT_DATA, OPT_RAWIP, OPT_ICMP,$/;"	e	enum:__anon4	file:
+OPT_REL	parseoptions.c	/^	OPT_FRAGOFF, OPT_TCPOFF, OPT_REL, OPT_DATA, OPT_RAWIP, OPT_ICMP,$/;"	e	enum:__anon4	file:
+OPT_ROUTE_HELP	parseoptions.c	/^	OPT_RAND_DEST, OPT_RAND_SOURCE, OPT_LSRR, OPT_SSRR, OPT_ROUTE_HELP,$/;"	e	enum:__anon4	file:
+OPT_RROUTE	parseoptions.c	/^	OPT_RROUTE, OPT_IPPROTO, OPT_ICMP_IPVER, OPT_ICMP_IPHLEN,$/;"	e	enum:__anon4	file:
+OPT_RST	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_SAFE	parseoptions.c	/^	OPT_SAFE, OPT_TRACEROUTE, OPT_TOS, OPT_MTU, OPT_SEQNUM, OPT_BADCKSUM,$/;"	e	enum:__anon4	file:
+OPT_SCAN	parseoptions.c	/^	OPT_ICMP_GW, OPT_FORCE_ICMP, OPT_APD_SEND, OPT_SCAN, OPT_FASTER,$/;"	e	enum:__anon4	file:
+OPT_SEQNUM	parseoptions.c	/^	OPT_SAFE, OPT_TRACEROUTE, OPT_TOS, OPT_MTU, OPT_SEQNUM, OPT_BADCKSUM,$/;"	e	enum:__anon4	file:
+OPT_SETACK	parseoptions.c	/^	OPT_SETSEQ, OPT_SETACK, OPT_ICMPTYPE, OPT_ICMPCODE, OPT_END,$/;"	e	enum:__anon4	file:
+OPT_SETSEQ	parseoptions.c	/^	OPT_SETSEQ, OPT_SETACK, OPT_ICMPTYPE, OPT_ICMPCODE, OPT_END,$/;"	e	enum:__anon4	file:
+OPT_SIGN	parseoptions.c	/^	OPT_KEEP, OPT_FILE, OPT_DUMP, OPT_PRINT, OPT_SIGN, OPT_LISTEN,$/;"	e	enum:__anon4	file:
+OPT_SPOOF	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_SSRR	parseoptions.c	/^	OPT_RAND_DEST, OPT_RAND_SOURCE, OPT_LSRR, OPT_SSRR, OPT_ROUTE_HELP,$/;"	e	enum:__anon4	file:
+OPT_SYN	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_TCPEXITCODE	parseoptions.c	/^	OPT_ICMP_TS, OPT_ICMP_ADDR, OPT_TCPEXITCODE, OPT_FAST, OPT_TR_KEEP_TTL,$/;"	e	enum:__anon4	file:
+OPT_TCPOFF	parseoptions.c	/^	OPT_FRAGOFF, OPT_TCPOFF, OPT_REL, OPT_DATA, OPT_RAWIP, OPT_ICMP,$/;"	e	enum:__anon4	file:
+OPT_TCP_TIMESTAMP	parseoptions.c	/^	OPT_TCP_TIMESTAMP, OPT_TR_STOP, OPT_TR_NO_RTT, OPT_ICMP_HELP,$/;"	e	enum:__anon4	file:
+OPT_TOS	parseoptions.c	/^	OPT_SAFE, OPT_TRACEROUTE, OPT_TOS, OPT_MTU, OPT_SEQNUM, OPT_BADCKSUM,$/;"	e	enum:__anon4	file:
+OPT_TRACEROUTE	parseoptions.c	/^	OPT_SAFE, OPT_TRACEROUTE, OPT_TOS, OPT_MTU, OPT_SEQNUM, OPT_BADCKSUM,$/;"	e	enum:__anon4	file:
+OPT_TR_KEEP_TTL	parseoptions.c	/^	OPT_ICMP_TS, OPT_ICMP_ADDR, OPT_TCPEXITCODE, OPT_FAST, OPT_TR_KEEP_TTL,$/;"	e	enum:__anon4	file:
+OPT_TR_NO_RTT	parseoptions.c	/^	OPT_TCP_TIMESTAMP, OPT_TR_STOP, OPT_TR_NO_RTT, OPT_ICMP_HELP,$/;"	e	enum:__anon4	file:
+OPT_TR_STOP	parseoptions.c	/^	OPT_TCP_TIMESTAMP, OPT_TR_STOP, OPT_TR_NO_RTT, OPT_ICMP_HELP,$/;"	e	enum:__anon4	file:
+OPT_TTL	parseoptions.c	/^	OPT_HELP, OPT_VERSION, OPT_DESTPORT, OPT_BASEPORT, OPT_TTL, OPT_ID,$/;"	e	enum:__anon4	file:
+OPT_UDP	parseoptions.c	/^	OPT_UDP, OPT_BIND, OPT_UNBIND, OPT_DEBUG, OPT_VERBOSE, OPT_WINID,$/;"	e	enum:__anon4	file:
+OPT_UNBIND	parseoptions.c	/^	OPT_UDP, OPT_BIND, OPT_UNBIND, OPT_DEBUG, OPT_VERBOSE, OPT_WINID,$/;"	e	enum:__anon4	file:
+OPT_URG	parseoptions.c	/^	OPT_URG, OPT_XMAS, OPT_YMAS, OPT_FRAG, OPT_MOREFRAG, OPT_DONTFRAG,$/;"	e	enum:__anon4	file:
+OPT_VERBOSE	parseoptions.c	/^	OPT_UDP, OPT_BIND, OPT_UNBIND, OPT_DEBUG, OPT_VERBOSE, OPT_WINID,$/;"	e	enum:__anon4	file:
+OPT_VERSION	parseoptions.c	/^	OPT_HELP, OPT_VERSION, OPT_DESTPORT, OPT_BASEPORT, OPT_TTL, OPT_ID,$/;"	e	enum:__anon4	file:
+OPT_WIN	parseoptions.c	/^	OPT_WIN, OPT_SPOOF, OPT_FIN, OPT_SYN, OPT_RST, OPT_PUSH, OPT_ACK,$/;"	e	enum:__anon4	file:
+OPT_WINID	parseoptions.c	/^	OPT_UDP, OPT_BIND, OPT_UNBIND, OPT_DEBUG, OPT_VERBOSE, OPT_WINID,$/;"	e	enum:__anon4	file:
+OPT_XMAS	parseoptions.c	/^	OPT_URG, OPT_XMAS, OPT_YMAS, OPT_FRAG, OPT_MOREFRAG, OPT_DONTFRAG,$/;"	e	enum:__anon4	file:
+OPT_YMAS	parseoptions.c	/^	OPT_URG, OPT_XMAS, OPT_YMAS, OPT_FRAG, OPT_MOREFRAG, OPT_DONTFRAG,$/;"	e	enum:__anon4	file:
+OSTYPE_LINUX	systype.h	4;"	d
+PCAP	Makefile	/^PCAP=-lpcap$/;"	m
+PF_PACKET	hping2.h	79;"	d
+PPPHDR_SIZE_BSDI	hping2.h	93;"	d
+PPPHDR_SIZE_FREEBSD	hping2.h	90;"	d
+PPPHDR_SIZE_LINUX	hping2.h	89;"	d
+PPPHDR_SIZE_NETBSD	hping2.h	92;"	d
+PPPHDR_SIZE_OPENBSD	hping2.h	91;"	d
+PSEUDOHDR_SIZE	hping2.h	343;"	d
+RANLIB	Makefile	/^RANLIB=\/usr\/bin\/ranlib$/;"	m
+RELEASE_DATE	release.h	15;"	d
+RELEASE_VERSION	release.h	14;"	d
+SBN_INVAL	sbignum.h	/^	SBN_INVAL$/;"	e	enum:sbn_err
+SBN_MAXBASE	sbignum.h	60;"	d
+SBN_MEM	sbignum.h	/^	SBN_MEM,$/;"	e	enum:sbn_err
+SBN_MINBASE	sbignum.h	59;"	d
+SBN_OK	sbignum.h	/^	SBN_OK = 0,$/;"	e	enum:sbn_err
+SEM_MODE	scan.c	54;"	d	file:
+SIOCGMIIPHY	interface.h	9;"	d
+SIOCGMIIREG	interface.h	10;"	d
+SIOCGPARAMS	interface.h	12;"	d
+SIOCSMIIREG	interface.h	11;"	d
+SIOCSPARAMS	interface.h	13;"	d
+S_RECV	hping2.h	68;"	d
+S_SENT	hping2.h	67;"	d
+SetMpzFromAny	script.c	/^int SetMpzFromAny(struct Tcl_Interp* interp, Tcl_Obj *objPtr)$/;"	f	signature:(struct Tcl_Interp* interp, Tcl_Obj *objPtr)
+SetMpzFromAny	script.c	/^static int SetMpzFromAny(struct Tcl_Interp* interp, Tcl_Obj *objPtr);$/;"	p	file:	signature:(struct Tcl_Interp* interp, Tcl_Obj *objPtr)
+Signal	hping2.h	/^void	(*Signal(int signo, void (*func)(int)))(int);$/;"	p	signature:(int signo, void (*func)(int))
+Signal	signal.c	/^void (*Signal(int signo, void (*func)(int)))(int)$/;"	f	signature:(int signo, void (*func)(int))
+Strchr	byteorder.c	/^char *Strchr(char *s, char c)$/;"	f	signature:(char *s, char c)
+TABLESIZE	hping2.h	66;"	d
+TCPHDR_SIZE	hping2.h	55;"	d
+TCPOPTSACK_MAX_ENTRIES	apd.c	567;"	d	file:
+TH_ACK	hping2.h	191;"	d
+TH_FIN	hping2.h	179;"	d
+TH_PUSH	hping2.h	188;"	d
+TH_RST	hping2.h	185;"	d
+TH_SYN	hping2.h	182;"	d
+TH_URG	hping2.h	194;"	d
+TH_X	hping2.h	197;"	d
+TH_Y	hping2.h	200;"	d
+TRHDR_SIZE	hping2.h	97;"	d
+TRUE	ars.h	25;"	d
+TRUE	hping2.h	72;"	d
+TXT	docs/french/Makefile	/^TXT = hping2-fr.8.txt$/;"	m
+Tcl_GetMpzFromObj	script.c	/^int Tcl_GetMpzFromObj(struct Tcl_Interp *interp, Tcl_Obj *objPtr, mpz_ptr *mpzPtrPtr)$/;"	f	signature:(struct Tcl_Interp *interp, Tcl_Obj *objPtr, mpz_ptr *mpzPtrPtr)
+Tcl_NewMpzObj	script.c	/^Tcl_Obj *Tcl_NewMpzObj(void)$/;"	f	signature:(void)
+Tcl_SetMpzObj	script.c	/^static void Tcl_SetMpzObj(Tcl_Obj *objPtr, mpz_ptr val);$/;"	p	file:	signature:(Tcl_Obj *objPtr, mpz_ptr val)
+Tcl_SetMpzObj	script.c	/^void Tcl_SetMpzObj(Tcl_Obj *objPtr, mpz_ptr val)$/;"	f	signature:(Tcl_Obj *objPtr, mpz_ptr val)
+UDPHDR_SIZE	hping2.h	52;"	d
+UNK_LONG_ERRSTRING	antigetopt.c	142;"	d	file:
+UNK_SHORT_ERRSTRING	antigetopt.c	141;"	d	file:
+UpdateStringOfMpz	script.c	/^static void UpdateStringOfMpz(Tcl_Obj *objPtr);$/;"	p	file:	signature:(Tcl_Obj *objPtr)
+UpdateStringOfMpz	script.c	/^void UpdateStringOfMpz(Tcl_Obj *objPtr)$/;"	f	signature:(Tcl_Obj *objPtr)
+WLANHDR_SIZE	hping2.h	96;"	d
+_ADBUF_H	adbuf.h	10;"	d
+_ARS_H	ars.h	7;"	d
+_BSD_SOCKLEN_T_	ars.h	11;"	d
+_GLOBALS_H	globals.h	14;"	d
+_HPING2_H	hping2.h	14;"	d
+_LINUX_MII_H	interface.h	5;"	d
+_RELEASE_H	release.h	12;"	d
+_SBIGNUM_H	sbignum.h	9;"	d
+_SBN_TABLES_H	sbignum-tables.h	2;"	d
+__ANTIGETOPT_H	antigetopt.h	2;"	d
+__APD_UTILS_H	apdutils.h	2;"	d
+__BYTEORDER_H	byteorder.h	2;"	d
+__D	ars.h	39;"	d
+__D	ars.h	41;"	d
+__HEX_H	hex.h	2;"	d
+__HPING_INTERFACE_H	interface.h	2;"	d
+__HpingRecvCmd	script.c	/^static int __HpingRecvCmd(ClientData clientData, Tcl_Interp *interp,$/;"	f	file:	signature:(ClientData clientData, Tcl_Interp *interp, int objc, Tcl_Obj *CONST objv[], int rapd, int hexdata)
+__LITTLE_ENDIAN_BITFIELD	byteorder.h	5;"	d
+__SYSTYPE_H	systype.h	2;"	d
+__mpz_clrbit	sbignum.c	394;"	d	file:
+__mpz_setbit	sbignum.c	364;"	d	file:
+__u16	ars.h	46;"	d
+__u16	hping2.h	29;"	d
+__u32	ars.h	47;"	d
+__u32	hping2.h	32;"	d
+__u8	ars.h	45;"	d
+__u8	hping2.h	26;"	d
+__uint16_t	hping2.h	39;"	d
+__uint32_t	hping2.h	42;"	d
+__uint8_t	hping2.h	36;"	d
+_gen_basepowtable	gentables.c	/^static void _gen_basepowtable(int bytes, double base);$/;"	p	file:	signature:(int bytes, double base)
+_gen_basepowtable	gentables.c	/^void _gen_basepowtable(int bytes, double base)$/;"	f	signature:(int bytes, double base)
+_gen_basetable	gentables.c	/^static void _gen_basetable(int bytes, double base);$/;"	p	file:	signature:(int bytes, double base)
+_gen_basetable	gentables.c	/^void _gen_basetable(int bytes, double base)$/;"	f	signature:(int bytes, double base)
+_icmp_seq	sendicmp.c	/^static int _icmp_seq = 0;$/;"	v	file:
+_mpz_abs	sbignum.c	321;"	d	file:
+_mpz_clone_stack	sbignum.c	287;"	d	file:
+_mpz_clrbit	sbignum.c	385;"	d	file:
+_mpz_copy_stack	sbignum.c	308;"	d	file:
+_mpz_is_even	sbignum.c	424;"	d	file:
+_mpz_is_odd	sbignum.c	423;"	d	file:
+_mpz_iszero	sbignum.h	65;"	d
+_mpz_neg	sbignum.c	156;"	d	file:
+_mpz_nonzero	sbignum.h	68;"	d
+_mpz_normalize	sbignum.c	248;"	d	file:
+_mpz_raw_init	sbignum.c	148;"	d	file:
+_mpz_rawclone_stack	sbignum.c	299;"	d	file:
+_mpz_self_lshift1	sbignum.c	491;"	d	file:
+_mpz_self_lshift1_setbit0	sbignum.c	504;"	d	file:
+_mpz_self_rshift1	sbignum.c	548;"	d	file:
+_mpz_selfdiv1_qr_raw	sbignum.c	/^mpz_atom_t _mpz_selfdiv1_qr_raw(mpz_ptr z, mpz_atom_t d)$/;"	f	signature:(mpz_ptr z, mpz_atom_t d)
+_mpz_set	sbignum.c	1441;"	d	file:
+_mpz_setbit	sbignum.c	356;"	d	file:
+_mpz_testbit	sbignum.c	416;"	d	file:
+a	sbignum.h	/^	u_int32_t a;	\/* allocated bytes *\/$/;"	m	struct:struct_sbnz
+active	scan.c	/^	int active;$/;"	m	struct:portinfo	file:
+adbuf	adbuf.h	/^struct adbuf {$/;"	s
+adbuf_add	adbuf.c	/^int adbuf_add(struct adbuf *b, void *data, size_t len)$/;"	f	signature:(struct adbuf *b, void *data, size_t len)
+adbuf_add	adbuf.h	/^int adbuf_add(struct adbuf *b, void *data, size_t len);$/;"	p	signature:(struct adbuf *b, void *data, size_t len)
+adbuf_add_long	adbuf.c	/^int adbuf_add_long(struct adbuf *b, long l)$/;"	f	signature:(struct adbuf *b, long l)
+adbuf_add_long	adbuf.h	/^int adbuf_add_long(struct adbuf *b, long l);$/;"	p	signature:(struct adbuf *b, long l)
+adbuf_add_ulong	adbuf.c	/^int adbuf_add_ulong(struct adbuf *b, unsigned long l)$/;"	f	signature:(struct adbuf *b, unsigned long l)
+adbuf_add_ulong	adbuf.h	/^int adbuf_add_ulong(struct adbuf *b, unsigned long l);$/;"	p	signature:(struct adbuf *b, unsigned long l)
+adbuf_addchar	adbuf.c	/^int adbuf_addchar(struct adbuf *b, int c)$/;"	f	signature:(struct adbuf *b, int c)
+adbuf_addchar	adbuf.h	/^int adbuf_addchar(struct adbuf *b, int c);$/;"	p	signature:(struct adbuf *b, int c)
+adbuf_cat	adbuf.c	/^int adbuf_cat(struct adbuf *a, struct adbuf *b)$/;"	f	signature:(struct adbuf *a, struct adbuf *b)
+adbuf_cat	adbuf.h	/^int adbuf_cat(struct adbuf *a, struct adbuf *b);$/;"	p	signature:(struct adbuf *a, struct adbuf *b)
+adbuf_clone	adbuf.c	/^int adbuf_clone(struct adbuf *src, struct adbuf *dst)$/;"	f	signature:(struct adbuf *src, struct adbuf *dst)
+adbuf_clone	adbuf.h	/^int adbuf_clone(struct adbuf *src, struct adbuf *dst);$/;"	p	signature:(struct adbuf *src, struct adbuf *dst)
+adbuf_cut	adbuf.c	/^int adbuf_cut(struct adbuf *b, size_t count)$/;"	f	signature:(struct adbuf *b, size_t count)
+adbuf_cut	adbuf.h	/^int adbuf_cut(struct adbuf *b, size_t count);$/;"	p	signature:(struct adbuf *b, size_t count)
+adbuf_free	adbuf.c	/^void adbuf_free(struct adbuf *b)$/;"	f	signature:(struct adbuf *b)
+adbuf_free	adbuf.h	/^void adbuf_free(struct adbuf *b);$/;"	p	signature:(struct adbuf *b)
+adbuf_from_heapstring	adbuf.h	27;"	d
+adbuf_init	adbuf.c	/^int adbuf_init(struct adbuf *b)$/;"	f	signature:(struct adbuf *b)
+adbuf_init	adbuf.h	/^int adbuf_init(struct adbuf *b);$/;"	p	signature:(struct adbuf *b)
+adbuf_ltrim	adbuf.c	/^int adbuf_ltrim(struct adbuf *b, size_t count)$/;"	f	signature:(struct adbuf *b, size_t count)
+adbuf_ltrim	adbuf.h	/^int adbuf_ltrim(struct adbuf *b, size_t count);$/;"	p	signature:(struct adbuf *b, size_t count)
+adbuf_printf	adbuf.c	/^int adbuf_printf(struct adbuf *dst, const char *fmt, ...)$/;"	f	signature:(struct adbuf *dst, const char *fmt, ...)
+adbuf_printf	adbuf.h	/^int adbuf_printf(struct adbuf *dst, const char *fmt, ...);$/;"	p	signature:(struct adbuf *dst, const char *fmt, ...)
+adbuf_ptr	adbuf.h	23;"	d
+adbuf_reset	adbuf.c	/^int adbuf_reset(struct adbuf *b)$/;"	f	signature:(struct adbuf *b)
+adbuf_reset	adbuf.h	/^int adbuf_reset(struct adbuf *b);$/;"	p	signature:(struct adbuf *b)
+adbuf_rtrim	adbuf.c	/^int adbuf_rtrim(struct adbuf *b, size_t count)$/;"	f	signature:(struct adbuf *b, size_t count)
+adbuf_rtrim	adbuf.h	/^int adbuf_rtrim(struct adbuf *b, size_t count);$/;"	p	signature:(struct adbuf *b, size_t count)
+adbuf_strcat	adbuf.c	/^int adbuf_strcat(struct adbuf *b, char *string)$/;"	f	signature:(struct adbuf *b, char *string)
+adbuf_strcat	adbuf.h	/^int adbuf_strcat(struct adbuf *b, char *string);$/;"	p	signature:(struct adbuf *b, char *string)
+adbuf_used	adbuf.h	22;"	d
+ago_exception	antigetopt.c	/^static struct ago_exception {$/;"	s	file:
+ago_exception_bits	antigetopt.c	/^static int ago_exception_bits[] = { AGO_EXCEPT0, AGO_EXCEPT1, AGO_EXCEPT2 };$/;"	v	file:
+ago_exceptions	antigetopt.c	/^} ago_exceptions[3] = {$/;"	v	typeref:struct:ago_exception	file:
+ago_gnu_error	antigetopt.c	/^void ago_gnu_error(char *pname, int error)$/;"	f	signature:(char *pname, int error)
+ago_gnu_error	antigetopt.h	/^void	ago_gnu_error(char *pname, int error);$/;"	p	signature:(char *pname, int error)
+ago_lookup	antigetopt.c	/^*ago_lookup(struct ago_optlist *list, char *arg, int *islong, int *amb)$/;"	f	signature:(struct ago_optlist *list, char *arg, int *islong, int *amb)
+ago_lookup	antigetopt.c	/^*ago_lookup(struct ago_optlist *list, char *arg, int *islong, int *amb);$/;"	p	file:	signature:(struct ago_optlist *list, char *arg, int *islong, int *amb)
+ago_optarg	antigetopt.c	/^char *ago_optarg = NULL;$/;"	v
+ago_optarg	antigetopt.h	/^extern char *ago_optarg;$/;"	x
+ago_optchar	antigetopt.c	/^char ago_optchar = '\\0';$/;"	v
+ago_optchar	antigetopt.h	/^extern char ago_optchar;$/;"	x
+ago_optlist	antigetopt.h	/^struct ago_optlist {$/;"	s
+ago_optname	antigetopt.c	/^char *ago_optname = NULL;$/;"	v
+ago_optname	antigetopt.h	/^extern char *ago_optname;$/;"	x
+ago_set_exception	antigetopt.c	/^int ago_set_exception(int except_nr, int (*tester)(void), char *msg)$/;"	f	signature:(int except_nr, int (*tester)(void), char *msg)
+ago_set_exception	antigetopt.h	/^int	ago_set_exception(int except_nr, int (*tester)(void), char *msg);$/;"	p	signature:(int except_nr, int (*tester)(void), char *msg)
+antigetopt	antigetopt.c	/^int antigetopt(int argc, char **argv, struct ago_optlist *list)$/;"	f	signature:(int argc, char **argv, struct ago_optlist *list)
+antigetopt	antigetopt.h	/^int	antigetopt(int argc, char **argv, struct ago_optlist *list);$/;"	p	signature:(int argc, char **argv, struct ago_optlist *list)
+ao_flags	antigetopt.h	/^	int ao_flags;$/;"	m	struct:ago_optlist
+ao_id	antigetopt.h	/^	int ao_id;$/;"	m	struct:ago_optlist
+ao_long	antigetopt.h	/^	char *ao_long;$/;"	m	struct:ago_optlist
+ao_short	antigetopt.h	/^	char ao_short;$/;"	m	struct:ago_optlist
+ars_add_data	ars.c	/^void *ars_add_data(struct ars_packet *pkt, int size)$/;"	f	signature:(struct ars_packet *pkt, int size)
+ars_add_data	ars.h	/^void *ars_add_data(struct ars_packet *pkt, int size);$/;"	p	signature:(struct ars_packet *pkt, int size)
+ars_add_generic	ars.c	/^int ars_add_generic(struct ars_packet *pkt, size_t size, int type)$/;"	f	signature:(struct ars_packet *pkt, size_t size, int type)
+ars_add_generic	ars.h	/^int ars_add_generic(struct ars_packet *pkt, size_t size, int type);$/;"	p	signature:(struct ars_packet *pkt, size_t size, int type)
+ars_add_icmphdr	ars.c	/^void *ars_add_icmphdr(struct ars_packet *pkt, int unused)$/;"	f	signature:(struct ars_packet *pkt, int unused)
+ars_add_icmphdr	ars.h	/^void *ars_add_icmphdr(struct ars_packet *pkt, int unused);$/;"	p	signature:(struct ars_packet *pkt, int unused)
+ars_add_igrpentry	ars.c	/^void *ars_add_igrpentry(struct ars_packet *pkt, int unused)$/;"	f	signature:(struct ars_packet *pkt, int unused)
+ars_add_igrpentry	ars.h	/^void *ars_add_igrpentry(struct ars_packet *pkt, int unused);$/;"	p	signature:(struct ars_packet *pkt, int unused)
+ars_add_igrphdr	ars.c	/^void *ars_add_igrphdr(struct ars_packet *pkt, int unused)$/;"	f	signature:(struct ars_packet *pkt, int unused)
+ars_add_igrphdr	ars.h	/^void *ars_add_igrphdr(struct ars_packet *pkt, int unused);$/;"	p	signature:(struct ars_packet *pkt, int unused)
+ars_add_iphdr	ars.c	/^void *ars_add_iphdr(struct ars_packet *pkt, int unused)$/;"	f	signature:(struct ars_packet *pkt, int unused)
+ars_add_iphdr	ars.h	/^void *ars_add_iphdr(struct ars_packet *pkt, int unused);$/;"	p	signature:(struct ars_packet *pkt, int unused)
+ars_add_ipopt	ars.c	/^void *ars_add_ipopt(struct ars_packet *pkt, int option)$/;"	f	signature:(struct ars_packet *pkt, int option)
+ars_add_ipopt	ars.h	/^void *ars_add_ipopt(struct ars_packet *pkt, int option);$/;"	p	signature:(struct ars_packet *pkt, int option)
+ars_add_tcphdr	ars.c	/^void *ars_add_tcphdr(struct ars_packet *pkt, int unused)$/;"	f	signature:(struct ars_packet *pkt, int unused)
+ars_add_tcphdr	ars.h	/^void *ars_add_tcphdr(struct ars_packet *pkt, int unused);$/;"	p	signature:(struct ars_packet *pkt, int unused)
+ars_add_tcpopt	ars.c	/^void *ars_add_tcpopt(struct ars_packet *pkt, int option)$/;"	f	signature:(struct ars_packet *pkt, int option)
+ars_add_tcpopt	ars.h	/^void *ars_add_tcpopt(struct ars_packet *pkt, int option);$/;"	p	signature:(struct ars_packet *pkt, int option)
+ars_add_udphdr	ars.c	/^void *ars_add_udphdr(struct ars_packet *pkt, int unused)$/;"	f	signature:(struct ars_packet *pkt, int unused)
+ars_add_udphdr	ars.h	/^void *ars_add_udphdr(struct ars_packet *pkt, int unused);$/;"	p	signature:(struct ars_packet *pkt, int unused)
+ars_atou	ars.h	468;"	d
+ars_bsd_fix	ars.c	/^int ars_bsd_fix(struct ars_packet *pkt, unsigned char *packet, size_t size)$/;"	f	signature:(struct ars_packet *pkt, unsigned char *packet, size_t size)
+ars_bsd_fix	ars.h	/^int ars_bsd_fix(struct ars_packet *pkt, unsigned char *packet, size_t size);$/;"	p	signature:(struct ars_packet *pkt, unsigned char *packet, size_t size)
+ars_build_packet	ars.c	/^int ars_build_packet(struct ars_packet *pkt, unsigned char **packet, size_t *size)$/;"	f	signature:(struct ars_packet *pkt, unsigned char **packet, size_t *size)
+ars_build_packet	ars.h	/^int ars_build_packet(struct ars_packet *pkt, unsigned char **packet, size_t *size);$/;"	p	signature:(struct ars_packet *pkt, unsigned char **packet, size_t *size)
+ars_check_icmp_cksum	ars.h	/^int ars_check_icmp_cksum(struct ars_icmphdr *icmp, size_t size);$/;"	p	signature:(struct ars_icmphdr *icmp, size_t size)
+ars_check_icmp_cksum	split.c	/^int ars_check_icmp_cksum(struct ars_icmphdr *icmp, size_t size)$/;"	f	signature:(struct ars_icmphdr *icmp, size_t size)
+ars_check_ip_cksum	ars.h	/^int ars_check_ip_cksum(struct ars_iphdr *ip);$/;"	p	signature:(struct ars_iphdr *ip)
+ars_check_ip_cksum	split.c	/^int ars_check_ip_cksum(struct ars_iphdr *ip)$/;"	f	signature:(struct ars_iphdr *ip)
+ars_cksum	ars.c	/^u_int16_t ars_cksum(void *vbuf, size_t nbytes)$/;"	f	signature:(void *vbuf, size_t nbytes)
+ars_cksum	ars.h	/^u_int16_t ars_cksum(void *vbuf, size_t nbytes);$/;"	p	signature:(void *vbuf, size_t nbytes)
+ars_clear_option	ars.h	470;"	d
+ars_compile	ars.c	/^int ars_compile(struct ars_packet *pkt)$/;"	f	signature:(struct ars_packet *pkt)
+ars_compile	ars.h	/^int ars_compile(struct ars_packet *pkt);$/;"	p	signature:(struct ars_packet *pkt)
+ars_compiler_abort	ars.c	/^int ars_compiler_abort(struct ars_packet *pkt, int layer) { return 0; }$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_icmp	ars.c	/^int ars_compiler_icmp(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_icmp	ars.c	/^int ars_compiler_icmp(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_igrp	ars.c	/^int ars_compiler_igrp(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_igrp	ars.c	/^int ars_compiler_igrp(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_ip	ars.c	/^int ars_compiler_ip(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_ip	ars.c	/^int ars_compiler_ip(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_ipopt	ars.c	/^int ars_compiler_ipopt(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_ipopt	ars.c	/^int ars_compiler_ipopt(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_tcp	ars.c	/^int ars_compiler_tcp(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_tcp	ars.c	/^int ars_compiler_tcp(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_tcpopt	ars.c	/^int ars_compiler_tcpopt(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_tcpopt	ars.c	/^int ars_compiler_tcpopt(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_udp	ars.c	/^int ars_compiler_udp(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_compiler_udp	ars.c	/^int ars_compiler_udp(struct ars_packet *pkt, int layer);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer)
+ars_d_build	apd.c	/^int ars_d_build(struct ars_packet *pkt, char *t)$/;"	f	signature:(struct ars_packet *pkt, char *t)
+ars_d_build	ars.h	/^int ars_d_build(struct ars_packet *pkt, char *t);$/;"	p	signature:(struct ars_packet *pkt, char *t)
+ars_d_field_get	apdutils.c	/^char *ars_d_field_get(char *packet, char *layer, char *field, int skip)$/;"	f	signature:(char *packet, char *layer, char *field, int skip)
+ars_d_field_get	apdutils.h	/^char *ars_d_field_get(char *packet, char *layer, char *field, int skip);$/;"	p	signature:(char *packet, char *layer, char *field, int skip)
+ars_d_field_off	apdutils.c	/^int ars_d_field_off(char *packet, char *layer, char *field, int skip,$/;"	f	signature:(char *packet, char *layer, char *field, int skip, int *field_start, int *value_start, int *value_end)
+ars_d_field_off	apdutils.h	/^int ars_d_field_off(char *packet, char *layer, char *field, int skip,$/;"	p	signature:(char *packet, char *layer, char *field, int skip, int *field_start, int *value_start, int *value_end)
+ars_d_firstfield_off	apdutils.c	/^int ars_d_firstfield_off(char *packet, char *layer, char *field,$/;"	f	signature:(char *packet, char *layer, char *field, int *field_start, int *value_start, int *value_end)
+ars_d_firstfield_off	apdutils.h	/^int ars_d_firstfield_off(char *packet, char *layer, char *field,$/;"	p	signature:(char *packet, char *layer, char *field, int *field_start, int *value_start, int *value_end)
+ars_d_from_ars	ars.h	/^int ars_d_from_ars(char *dest, size_t len, struct ars_packet *pkt);$/;"	p	signature:(char *dest, size_t len, struct ars_packet *pkt)
+ars_d_from_ars	rapd.c	/^int ars_d_from_ars(char *dest, size_t len, struct ars_packet *pkt)$/;"	f	signature:(char *dest, size_t len, struct ars_packet *pkt)
+ars_d_keyword_info	apd.c	/^struct ars_d_keyword_info {$/;"	s	file:
+ars_d_parser	apd.c	/^char *ars_d_parser(char *t, char *next, size_t size)$/;"	f	signature:(char *t, char *next, size_t size)
+ars_d_set_data	apd.c	/^int ars_d_set_data(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_data	apd.c	/^int ars_d_set_data(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_icmp	apd.c	/^int ars_d_set_icmp(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_icmp	apd.c	/^int ars_d_set_icmp(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_igrp	apd.c	/^int ars_d_set_igrp(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_igrp	apd.c	/^int ars_d_set_igrp(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_igrpentry	apd.c	/^int ars_d_set_igrpentry(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_igrpentry	apd.c	/^int ars_d_set_igrpentry(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ip	apd.c	/^int ars_d_set_ip(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ip	apd.c	/^int ars_d_set_ip(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_dumb	apd.c	/^int ars_d_set_ipopt_dumb(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_dumb	apd.c	/^int ars_d_set_ipopt_dumb(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_rr	apd.c	/^int ars_d_set_ipopt_rr(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_rr	apd.c	/^int ars_d_set_ipopt_rr(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_sec	apd.c	/^int ars_d_set_ipopt_sec(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_sec	apd.c	/^int ars_d_set_ipopt_sec(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_sid	apd.c	/^int ars_d_set_ipopt_sid(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_sid	apd.c	/^int ars_d_set_ipopt_sid(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_ts	apd.c	/^int ars_d_set_ipopt_ts(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_ipopt_ts	apd.c	/^int ars_d_set_ipopt_ts(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcp	apd.c	/^int ars_d_set_tcp(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcp	apd.c	/^int ars_d_set_tcp(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_dumb	apd.c	/^int ars_d_set_tcpopt_dumb(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_dumb	apd.c	/^int ars_d_set_tcpopt_dumb(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_echo	apd.c	/^int ars_d_set_tcpopt_echo(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_echo	apd.c	/^int ars_d_set_tcpopt_echo(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_mss	apd.c	/^int ars_d_set_tcpopt_mss(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_mss	apd.c	/^int ars_d_set_tcpopt_mss(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_sack	apd.c	/^int ars_d_set_tcpopt_sack(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_sack	apd.c	/^int ars_d_set_tcpopt_sack(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_wscale	apd.c	/^int ars_d_set_tcpopt_wscale(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_tcpopt_wscale	apd.c	/^int ars_d_set_tcpopt_wscale(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_udp	apd.c	/^int ars_d_set_udp(struct ars_packet *pkt, int layer, char *f, char *v)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_set_udp	apd.c	/^int ars_d_set_udp(struct ars_packet *pkt, int layer, char *f, char *v);$/;"	p	file:	signature:(struct ars_packet *pkt, int layer, char *f, char *v)
+ars_d_setlayer_size	apd.c	/^int ars_d_setlayer_size(struct ars_packet *pkt, int layer, char *size)$/;"	f	signature:(struct ars_packet *pkt, int layer, char *size)
+ars_decode_hex	apd.c	/^static char *ars_decode_hex(struct ars_packet *pkt, char *s, int *blen)$/;"	f	file:	signature:(struct ars_packet *pkt, char *s, int *blen)
+ars_decode_string	apd.c	/^static char *ars_decode_string(struct ars_packet *pkt, char *s, int *blen)$/;"	f	file:	signature:(struct ars_packet *pkt, char *s, int *blen)
+ars_destroy	ars.c	/^int ars_destroy(struct ars_packet *pkt)$/;"	f	signature:(struct ars_packet *pkt)
+ars_destroy	ars.h	/^int ars_destroy(struct ars_packet *pkt);$/;"	p	signature:(struct ars_packet *pkt)
+ars_error_nomem	ars.c	/^char *ars_error_nomem = "Out of memory";$/;"	v
+ars_get_iface	ars.h	/^int ars_get_iface(char *name, struct ars_iface *i);$/;"	p	signature:(char *name, struct ars_iface *i)
+ars_get_iface_list	ars.h	/^int ars_get_iface_list(struct ars_iface *iface, size_t *isize);$/;"	p	signature:(struct ars_iface *iface, size_t *isize)
+ars_get_keyword_by_name	apd.c	/^struct ars_d_keyword_info *ars_get_keyword_by_name(char *name)$/;"	f	signature:(char *name)
+ars_guess_ipoff	ars.h	/^int ars_guess_ipoff(void *packet, size_t size, int *lhs);$/;"	p	signature:(void *packet, size_t size, int *lhs)
+ars_guess_ipoff	split.c	/^int ars_guess_ipoff(void *packet, size_t size, int *lhs)$/;"	f	signature:(void *packet, size_t size, int *lhs)
+ars_icmphdr	ars.h	/^struct ars_icmphdr$/;"	s
+ars_iface	ars.h	/^struct ars_iface {$/;"	s
+ars_igrpentry	ars.h	/^struct ars_igrpentry {$/;"	s
+ars_igrphdr	ars.h	/^struct ars_igrphdr {$/;"	s
+ars_init	ars.c	/^int ars_init(struct ars_packet *pkt)$/;"	f	signature:(struct ars_packet *pkt)
+ars_init	ars.h	/^int ars_init(struct ars_packet *pkt);$/;"	p	signature:(struct ars_packet *pkt)
+ars_ip_next_state	split.c	/^void ars_ip_next_state(int ipproto, int *state)$/;"	f	signature:(int ipproto, int *state)
+ars_iphdr	ars.h	/^struct ars_iphdr {$/;"	s
+ars_ipopt	ars.h	/^struct ars_ipopt {$/;"	s
+ars_layer	ars.h	/^struct ars_layer {$/;"	s
+ars_layer_info	ars.h	/^struct ars_layer_info {$/;"	s
+ars_linfo	ars.c	/^struct ars_layer_info ars_linfo[ARS_TYPE_SIZE] = {$/;"	v	typeref:struct:ars_layer_info
+ars_linfo	ars.h	/^extern struct ars_layer_info ars_linfo[ARS_TYPE_SIZE];$/;"	x
+ars_multi_cksum	ars.c	/^u_int16_t ars_multi_cksum(struct mc_context *c, int op, void *vbuf,$/;"	f	signature:(struct mc_context *c, int op, void *vbuf, size_t nbytes)
+ars_multi_cksum	ars.h	/^u_int16_t ars_multi_cksum(struct mc_context *c, int op, void *vbuf, size_t nbytes);$/;"	p	signature:(struct mc_context *c, int op, void *vbuf, size_t nbytes)
+ars_nospace	ars.c	/^int ars_nospace(struct ars_packet *pkt)$/;"	f	signature:(struct ars_packet *pkt)
+ars_nospace	ars.h	/^int ars_nospace(struct ars_packet *pkt);$/;"	p	signature:(struct ars_packet *pkt)
+ars_open_rawsocket	ars.c	/^int ars_open_rawsocket(struct ars_packet *pkt)$/;"	f	signature:(struct ars_packet *pkt)
+ars_open_rawsocket	ars.h	/^int ars_open_rawsocket(struct ars_packet *pkt);$/;"	p	signature:(struct ars_packet *pkt)
+ars_packet	ars.h	/^struct ars_packet {$/;"	s
+ars_packet	ars.h	/^struct ars_packet; \/* forward declaration *\/$/;"	x
+ars_packet_size	ars.c	/^size_t ars_packet_size(struct ars_packet *pkt)$/;"	f	signature:(struct ars_packet *pkt)
+ars_packet_size	ars.h	/^size_t ars_packet_size(struct ars_packet *pkt);$/;"	p	signature:(struct ars_packet *pkt)
+ars_pseudohdr	ars.h	/^struct ars_pseudohdr$/;"	s
+ars_push_data	apd.c	/^int ars_push_data(struct ars_packet *pkt, int layer, void *data, size_t size)$/;"	f	signature:(struct ars_packet *pkt, int layer, void *data, size_t size)
+ars_rapd_data	ars.h	/^int ars_rapd_data(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_data	rapd.c	/^int ars_rapd_data(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_icmp	ars.h	/^int ars_rapd_icmp(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_icmp	rapd.c	/^int ars_rapd_icmp(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_igrp	ars.h	/^int ars_rapd_igrp(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_igrp	rapd.c	/^int ars_rapd_igrp(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_igrpentry	ars.h	/^int ars_rapd_igrpentry(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_igrpentry	rapd.c	/^int ars_rapd_igrpentry(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_ip	ars.h	/^int ars_rapd_ip(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_ip	rapd.c	/^int ars_rapd_ip(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_ipopt	ars.h	/^int ars_rapd_ipopt(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_ipopt	rapd.c	/^int ars_rapd_ipopt(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_tcp	ars.h	/^int ars_rapd_tcp(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_tcp	rapd.c	/^int ars_rapd_tcp(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_tcpopt	ars.h	/^int ars_rapd_tcpopt(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_tcpopt	rapd.c	/^int ars_rapd_tcpopt(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_udp	ars.h	/^int ars_rapd_udp(struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	p	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_rapd_udp	rapd.c	/^int ars_rapd_udp(struct adbuf *dest, struct ars_packet *pkt, int layer)$/;"	f	signature:(struct adbuf *dest, struct ars_packet *pkt, int layer)
+ars_relative_size	ars.c	/^size_t ars_relative_size(struct ars_packet *pkt, int layer_nr)$/;"	f	signature:(struct ars_packet *pkt, int layer_nr)
+ars_relative_size	ars.h	/^size_t ars_relative_size(struct ars_packet *pkt, int layer_nr);$/;"	p	signature:(struct ars_packet *pkt, int layer_nr)
+ars_remove_layer	ars.c	/^int ars_remove_layer(struct ars_packet *pkt, int layer)$/;"	f	signature:(struct ars_packet *pkt, int layer)
+ars_remove_layer	ars.h	/^int ars_remove_layer(struct ars_packet *pkt, int layer);$/;"	p	signature:(struct ars_packet *pkt, int layer)
+ars_resolve	ars.c	/^int ars_resolve(struct ars_packet *pkt, u_int32_t *dest, char *hostname)$/;"	f	signature:(struct ars_packet *pkt, u_int32_t *dest, char *hostname)
+ars_resolve	ars.h	/^int ars_resolve(struct ars_packet *pkt, u_int32_t *dest, char *hostname);$/;"	p	signature:(struct ars_packet *pkt, u_int32_t *dest, char *hostname)
+ars_seems_ip	ars.h	/^int ars_seems_ip(struct ars_iphdr *ip, size_t size);$/;"	p	signature:(struct ars_iphdr *ip, size_t size)
+ars_seems_ip	split.c	/^int ars_seems_ip(struct ars_iphdr *ip, size_t size)$/;"	f	signature:(struct ars_iphdr *ip, size_t size)
+ars_send	ars.c	/^int ars_send(int s, struct ars_packet *pkt, struct sockaddr *sa, socklen_t slen)$/;"	f	signature:(int s, struct ars_packet *pkt, struct sockaddr *sa, socklen_t slen)
+ars_send	ars.h	/^int ars_send(int s, struct ars_packet *pkt, struct sockaddr *sa, socklen_t slen);$/;"	p	signature:(int s, struct ars_packet *pkt, struct sockaddr *sa, socklen_t slen)
+ars_set_default	ars.c	/^int ars_set_default(struct ars_packet *pkt, int layer_type, void *def)$/;"	f	signature:(struct ars_packet *pkt, int layer_type, void *def)
+ars_set_error	ars.c	/^int ars_set_error(struct ars_packet *pkt, const char *fmt, ...)$/;"	f	signature:(struct ars_packet *pkt, const char *fmt, ...)
+ars_set_error	ars.h	/^int ars_set_error(struct ars_packet *pkt, const char *fmt, ...);$/;"	p	signature:(struct ars_packet *pkt, const char *fmt, ...)
+ars_set_flags	ars.c	/^int ars_set_flags(struct ars_packet *pkt, int layer, int flags)$/;"	f	signature:(struct ars_packet *pkt, int layer, int flags)
+ars_set_flags	ars.h	/^int ars_set_flags(struct ars_packet *pkt, int layer, int flags);$/;"	p	signature:(struct ars_packet *pkt, int layer, int flags)
+ars_set_option	ars.h	469;"	d
+ars_split_data	split.c	/^int ars_split_data(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_data	split.c	/^int ars_split_data(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_icmp	split.c	/^int ars_split_icmp(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_icmp	split.c	/^int ars_split_icmp(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_igrp	split.c	/^int ars_split_igrp(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_igrp	split.c	/^int ars_split_igrp(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_igrpentry	split.c	/^int ars_split_igrpentry(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_igrpentry	split.c	/^int ars_split_igrpentry(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_ip	split.c	/^int ars_split_ip(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_ip	split.c	/^int ars_split_ip(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_ipopt	split.c	/^int ars_split_ipopt(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_ipopt	split.c	/^int ars_split_ipopt(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_packet	ars.h	/^int ars_split_packet(void *packet, size_t size, int ipoff, struct ars_packet *pkt);$/;"	p	signature:(void *packet, size_t size, int ipoff, struct ars_packet *pkt)
+ars_split_packet	split.c	/^int ars_split_packet(void *packet, size_t size, int ipoff, struct ars_packet *pkt)$/;"	f	signature:(void *packet, size_t size, int ipoff, struct ars_packet *pkt)
+ars_split_state_handler	split.c	/^int (*ars_split_state_handler[])(struct ars_packet *pkt, void *packet,$/;"	v
+ars_split_tcp	split.c	/^int ars_split_tcp(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_tcp	split.c	/^int ars_split_tcp(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_tcpopt	split.c	/^int ars_split_tcpopt(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_tcpopt	split.c	/^int ars_split_tcpopt(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_udp	split.c	/^int ars_split_udp(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)$/;"	f	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_split_udp	split.c	/^int ars_split_udp(struct ars_packet *pkt, void *packet, size_t size,$/;"	p	file:	signature:(struct ars_packet *pkt, void *packet, size_t size, int *state, int *len)
+ars_tcphdr	ars.h	/^struct ars_tcphdr {$/;"	s
+ars_tcpopt	ars.h	/^struct ars_tcpopt {$/;"	s
+ars_test_option	ars.h	471;"	d
+ars_udphdr	ars.h	/^struct ars_udphdr { $/;"	s
+ars_udptcp_cksum	ars.c	/^int ars_udptcp_cksum(struct ars_packet *pkt, int layer, u_int16_t *sum)$/;"	f	signature:(struct ars_packet *pkt, int layer, u_int16_t *sum)
+ars_udptcp_cksum	ars.h	/^int ars_udptcp_cksum(struct ars_packet *pkt, int layer, u_int16_t *sum);$/;"	p	signature:(struct ars_packet *pkt, int layer, u_int16_t *sum)
+ars_valid_layer	ars.c	/^int ars_valid_layer(int layer)$/;"	f	signature:(int layer)
+ars_valid_layer	ars.h	/^int ars_valid_layer(int layer);$/;"	p	signature:(int layer)
+autosys	ars.h	/^	__u16	autosys;$/;"	m	struct:ars_igrphdr
+aux	ars.h	/^	int aux; \/* Auxiliar variable for data exchange between functions *\/$/;"	m	struct:ars_packet
+aux_ipproto	ars.h	/^	int aux_ipproto; \/* This hold the ip->proto field seen in the last$/;"	m	struct:ars_packet
+avrgcount	scan.c	/^int avrgcount = 0;$/;"	v
+avrgms	scan.c	/^float avrgms = 0;$/;"	v
+bandwidth	ars.h	/^	__u8	bandwidth[3];$/;"	m	struct:ars_igrpentry
+base_dst_port	globals.h	/^		base_dst_port,$/;"	x
+base_dst_port	main.c	/^	base_dst_port	= DEFAULT_DPORT,$/;"	v
+basepowtable	sbignum-tables.c	/^struct sbn_basepow basepowtable[37] = {$/;"	v	typeref:struct:sbn_basepow
+basepowtable	sbignum-tables.h	/^extern struct sbn_basepow basepowtable[37];$/;"	x
+basetable	sbignum-tables.c	/^double basetable[37] = {$/;"	v
+basetable	sbignum-tables.h	/^extern double basetable[37];$/;"	x
+bintohex	hex.c	/^void bintohex(char *dest, void *bin, int len)$/;"	f	signature:(char *dest, void *bin, int len)
+bintohex	hex.h	/^void bintohex(char *dest, void *bin, int len);$/;"	p	signature:(char *dest, void *bin, int len)
+bitstable	sbignum-tables.c	/^int8_t bitstable[256] = {$/;"	v
+bitstable	sbignum-tables.h	/^extern int8_t bitstable[256];$/;"	x
+buf	adbuf.h	/^	char *buf;$/;"	m	struct:adbuf
+c	ars.h	/^			u_int16_t c;$/;"	m	struct:ars_ipopt::__anon5::__anon6
+check	ars.h	/^        __u16   check;$/;"	m	struct:ars_iphdr
+check	hping2.h	/^        __u16   check;$/;"	m	struct:myiphdr
+checksum	ars.h	/^	__u16	checksum;$/;"	m	struct:ars_igrphdr
+checksum	ars.h	/^	__u16         checksum;$/;"	m	struct:ars_icmphdr
+checksum	hping2.h	/^	__u16         checksum;$/;"	m	struct:myicmphdr
+cksum	cksum.c	/^__u16 cksum(__u16 *buf, int nbytes)$/;"	f	signature:(__u16 *buf, int nbytes)
+cksum	hping2.h	/^__u16	cksum(__u16 *buf, int nwords);		\/* compute 16bit checksum *\/$/;"	p	signature:(__u16 *buf, int nwords)
+close_pcap	hping2.h	/^int	close_pcap(void);			\/* close libpcap socket *\/$/;"	p	signature:(void)
+close_pcap	libpcap_stuff.c	/^int close_pcap()$/;"	f
+close_sockpacket	hping2.h	/^int	close_sockpacket(int);			\/* close SOCK_PACKET socket *\/$/;"	p	signature:(int)
+code	ars.h	/^	__u8          code;$/;"	m	struct:ars_icmphdr
+code	hping2.h	/^	__u8          code;$/;"	m	struct:myicmphdr
+count	globals.h	/^		count,$/;"	x
+count	main.c	/^	count		= DEFAULT_COUNT,$/;"	v
+cset	gentables.c	/^static char *cset = "0123456789abcdefghijklmnopqrstuvwxyz";$/;"	v	file:
+cset	sbignum-tables.c	/^char *cset = "0123456789abcdefghijklmnopqrstuvwxyz";$/;"	v
+cset	sbignum-tables.h	/^extern char *cset;$/;"	x
+ctrlzbind	globals.h	/^		ctrlzbind,$/;"	x
+ctrlzbind	main.c	/^	ctrlzbind	= DEFAULT_BIND,$/;"	v
+d	sbignum.h	/^	mpz_atom_t *d;	\/* data the least significant word is d[0] *\/$/;"	m	struct:struct_sbnz
+daddr	ars.h	/^	__u32 daddr;$/;"	m	struct:ars_pseudohdr
+daddr	ars.h	/^        __u32   daddr;$/;"	m	struct:ars_iphdr
+daddr	hping2.h	/^	__u32 daddr;$/;"	m	struct:pseudohdr
+daddr	hping2.h	/^        __u32   daddr;$/;"	m	struct:myiphdr
+data	ars.h	/^			u_int8_t data[36];$/;"	m	struct:ars_ipopt::__anon5::__anon10
+data	ars.h	/^			u_int8_t data[37];$/;"	m	struct:ars_ipopt::__anon5::__anon7
+data	ars.h	/^			u_int8_t data[37];$/;"	m	struct:ars_ipopt::__anon5::__anon8
+data_handler	datahandler.c	/^void data_handler(char *data, int data_size)$/;"	f	signature:(char *data, int data_size)
+data_handler	hping2.h	/^void	data_handler(char *data, int data_size);\/* handle data filling *\/$/;"	p	signature:(char *data, int data_size)
+data_size	globals.h	/^		data_size;$/;"	x
+data_size	main.c	/^	data_size = 0;$/;"	v
+datafilename	globals.h	/^		datafilename[1024],$/;"	x
+datafilename	main.c	/^	datafilename	[1024],$/;"	v
+datafiller	datafiller.c	/^void datafiller(char *p, int size)$/;"	f	signature:(char *p, int size)
+datafiller	hping2.h	/^void	datafiller(char *p, int size);		\/* fill data from file *\/$/;"	p	signature:(char *p, int size)
+debugprint	sbignum.c	163;"	d	file:
+debugprint2	sbignum.c	169;"	d	file:
+delay	ars.h	/^	__u8	delay[3];$/;"	m	struct:ars_igrpentry
+delay_changed	parseoptions.c	/^static int delay_changed = 0;$/;"	v	file:
+delaytable	globals.h	/^extern volatile struct delaytable_element delaytable[TABLESIZE];$/;"	x
+delaytable	hping2.h	/^volatile struct delaytable_element delaytable[TABLESIZE];$/;"	v	typeref:struct:delaytable_element
+delaytable	main.c	/^volatile struct delaytable_element delaytable[TABLESIZE];$/;"	v	typeref:struct:delaytable_element
+delaytable_add	hping2.h	/^void	delaytable_add(int seq, int src, time_t sec, time_t usec, int status);$/;"	p	signature:(int seq, int src, time_t sec, time_t usec, int status)
+delaytable_add	rtt.c	/^void delaytable_add(int seq, int src, time_t sec, time_t usec, int status)$/;"	f	signature:(int seq, int src, time_t sec, time_t usec, int status)
+delaytable_element	hping2.h	/^struct delaytable_element {$/;"	s
+delaytable_index	globals.h	/^		delaytable_index,$/;"	x
+delaytable_index	main.c	/^	delaytable_index= 0,$/;"	v
+destination	ars.h	/^	__u8	destination[3];$/;"	m	struct:ars_igrpentry
+display_ipopt	display_ipopt.c	/^void display_ipopt(char* buf)$/;"	f	signature:(char* buf)
+display_ipopt	hping2.h	/^void	display_ipopt(char* buf);		\/* display ip options *\/$/;"	p	signature:(char* buf)
+dltype_to_lhs	getlhs.c	/^int dltype_to_lhs(int dltype)$/;"	f	signature:(int dltype)
+dltype_to_lhs	hping2.h	/^int	dltype_to_lhs(int dltype);$/;"	p	signature:(int dltype)
+do_exit	scan.c	/^static void do_exit(int sid)$/;"	f	file:	signature:(int sid)
+dst	waitpacket.c	/^static struct in_addr src, dst;$/;"	v	typeref:struct:	file:
+dst_port	globals.h	/^		dst_port,$/;"	x
+dst_port	main.c	/^	dst_port	= DEFAULT_DPORT,$/;"	v
+echo	ars.h	/^		} echo; \/* called echo since it's the most used *\/$/;"	m	union:ars_icmphdr::__anon17	typeref:struct:ars_icmphdr::__anon17::__anon18
+echo	ars.h	/^		} echo;$/;"	m	union:ars_tcpopt::__anon11	typeref:struct:ars_tcpopt::__anon11::__anon15
+echo	hping2.h	/^		} echo;$/;"	m	union:myicmphdr::__anon1	typeref:struct:myicmphdr::__anon1::__anon2
+edition	ars.h	/^	__u8	edition;$/;"	m	struct:ars_igrphdr
+eof_reached	globals.h	/^		eof_reached,$/;"	x
+eof_reached	main.c	/^	eof_reached	= FALSE,$/;"	v
+errbuf	globals.h	/^extern char errbuf[PCAP_ERRBUF_SIZE];$/;"	x
+errbuf	main.c	/^char errbuf[PCAP_ERRBUF_SIZE];$/;"	v
+exterior	ars.h	/^	__u16	exterior;$/;"	m	struct:ars_igrphdr
+fail_parse_route	parseoptions.c	/^void fail_parse_route(void)$/;"	f	signature:(void)
+flags	ars.h	/^			u_int8_t flags;$/;"	m	struct:ars_ipopt::__anon5::__anon10
+frag_off	ars.h	/^        __u16   frag_off;$/;"	m	struct:ars_iphdr
+frag_off	hping2.h	/^        __u16   frag_off;$/;"	m	struct:myiphdr
+gateway	ars.h	/^		__u32   gateway;$/;"	m	union:ars_icmphdr::__anon17
+gateway	hping2.h	/^		__u32   gateway;$/;"	m	union:myicmphdr::__anon1
+gen_basepowtable	gentables.c	/^static void gen_basepowtable(int hdr);$/;"	p	file:	signature:(int hdr)
+gen_basepowtable	gentables.c	/^void gen_basepowtable(int hdr)$/;"	f	signature:(int hdr)
+gen_basetable	gentables.c	/^static void gen_basetable(int hdr);$/;"	p	file:	signature:(int hdr)
+gen_basetable	gentables.c	/^void gen_basetable(int hdr)$/;"	f	signature:(int hdr)
+gen_bitstable	gentables.c	/^static void gen_bitstable(int hdr);$/;"	p	file:	signature:(int hdr)
+gen_bitstable	gentables.c	/^void gen_bitstable(int hdr)$/;"	f	signature:(int hdr)
+gen_cset	gentables.c	/^static void gen_cset(int hdr);$/;"	p	file:	signature:(int hdr)
+gen_cset	gentables.c	/^void gen_cset(int hdr)$/;"	f	signature:(int hdr)
+gen_rcset	gentables.c	/^static void gen_rcset(int hdr);$/;"	p	file:	signature:(int hdr)
+gen_rcset	gentables.c	/^void gen_rcset(int hdr)$/;"	f	signature:(int hdr)
+get_hostname	gethostname.c	/^char *get_hostname(char* addr)$/;"	f	signature:(char* addr)
+get_hostname	hping2.h	/^char	*get_hostname(char*);			\/* get host from addr *\/$/;"	p	signature:(char*)
+get_if_name	getifname.c	/^int get_if_name(void)$/;"	f	signature:(void)
+get_if_name	hping2.h	/^int	get_if_name(void);			\/* get interface (see source) *\/$/;"	p	signature:(void)
+get_linkhdr_size	getlhs.c	/^int get_linkhdr_size(char *ifname)$/;"	f	signature:(char *ifname)
+get_linkhdr_size	hping2.h	/^int	get_linkhdr_size(char*);		\/* get link layer hdr size *\/$/;"	p	signature:(char*)
+get_midnight_ut_ms	hping2.h	389;"	d
+get_net_int24	rapd.c	/^static u_int32_t get_net_int24(void *ptr)$/;"	f	file:	signature:(void *ptr)
+get_output_if	getifname.c	/^int get_output_if(struct sockaddr_in *dest, struct sockaddr_in *ifip)$/;"	f	signature:(struct sockaddr_in *dest, struct sockaddr_in *ifip)
+get_output_if	hping2.h	/^int	get_output_if(struct sockaddr_in *dest, struct sockaddr_in *ifip);$/;"	p	signature:(struct sockaddr_in *dest, struct sockaddr_in *ifip)
+get_usec	getusec.c	/^time_t get_usec(void)$/;"	f	signature:(void)
+get_usec	hping2.h	/^time_t	get_usec(void);				\/* return current usec *\/$/;"	p	signature:(void)
+h	ars.h	/^			u_int16_t h;$/;"	m	struct:ars_ipopt::__anon5::__anon6
+h_if_mtu	globals.h	/^		h_if_mtu,$/;"	x
+h_if_mtu	main.c	/^	h_if_mtu,$/;"	v
+handle_hcmp	waitpacket.c	/^static void handle_hcmp(char *packet, int size);$/;"	p	file:	signature:(char *packet, int size)
+handle_hcmp	waitpacket.c	/^void handle_hcmp(char *packet, int size)$/;"	f	signature:(char *packet, int size)
+hcharset	hex.c	/^static char hcharset[16] = "0123456789abcdef";$/;"	v	file:
+hcmphdr	hcmp.h	/^struct hcmphdr$/;"	s
+hcmphdr_p	globals.h	/^extern struct hcmphdr *hcmphdr_p;$/;"	x
+hcmphdr_p	main.c	/^struct hcmphdr *hcmphdr_p; \/* global pointer used by send_hcmp to transfer$/;"	v	typeref:struct:hcmphdr
+hdr	globals.h	/^extern struct pcap_pkthdr hdr;$/;"	x
+hdr	main.c	/^struct pcap_pkthdr hdr;$/;"	v	typeref:struct:pcap_pkthdr
+hex_dump	waitpacket.c	/^static void hex_dump(void *packet, int size);$/;"	p	file:	signature:(void *packet, int size)
+hex_dump	waitpacket.c	/^void hex_dump(void *packet, int size)$/;"	f	signature:(void *packet, int size)
+hexdig	apd.c	/^static char *hexdig = "0123456789abcdef";$/;"	v	file:
+hextab	apd.c	/^static int hextab[256];$/;"	v	file:
+hextab_initialized	apd.c	/^static int hextab_initialized = 0;$/;"	v	file:
+hextobin	hex.c	/^int hextobin(void *dest, char *hexstr, int len)$/;"	f	signature:(void *dest, char *hexstr, int len)
+hextobin	hex.h	/^int hextobin(void *dest, char *hexstr, int len);$/;"	p	signature:(void *dest, char *hexstr, int len)
+hif_addr	interface.h	/^	in_addr_t hif_addr[HPING_IFADDR_MAX];	\/* ipv4 addresses *\/$/;"	m	struct:hpingif
+hif_baddr	interface.h	/^	in_addr_t hif_baddr[HPING_IFADDR_MAX];	\/* ipv4 broadcast addresses *\/$/;"	m	struct:hpingif
+hif_broadcast	interface.h	/^	int hif_broadcast;$/;"	m	struct:hpingif
+hif_index	interface.h	/^	int hif_index;	\/* only useful for linux sockpacket version *\/$/;"	m	struct:hpingif
+hif_loopback	interface.h	/^	int hif_loopback;$/;"	m	struct:hpingif
+hif_mtu	interface.h	/^	int hif_mtu;$/;"	m	struct:hpingif
+hif_naddr	interface.h	/^	int hif_naddr;$/;"	m	struct:hpingif
+hif_name	interface.h	/^	char hif_name[HPING_IFNAME_LEN];$/;"	m	struct:hpingif
+hif_nolink	interface.h	/^	int hif_nolink; \/* only set with MII-capable devices *\/$/;"	m	struct:hpingif
+hif_promisc	interface.h	/^	int hif_promisc;$/;"	m	struct:hpingif
+hif_ptp	interface.h	/^	int hif_ptp;$/;"	m	struct:hpingif
+hopcount	ars.h	/^	__u8	hopcount;$/;"	m	struct:ars_igrpentry
+hp_rand	hping2.h	/^u_int32_t hp_rand(void);$/;"	p	signature:(void)
+hp_rand	random.c	/^u_int32_t hp_rand(void)$/;"	f	signature:(void)
+hp_rand	random.c	/^u_int32_t hp_rand(void);$/;"	p	file:	signature:(void)
+hp_rand_init	random.c	/^static void hp_rand_init(void)$/;"	f	file:	signature:(void)
+hping_ars_send	arsglue.c	/^void hping_ars_send(char *apd)$/;"	f	signature:(char *apd)
+hping_ars_send	hping2.h	/^void hping_ars_send(char *s);$/;"	p	signature:(char *s)
+hping_get_interfaces	interface.c	/^int hping_get_interfaces(struct hpingif *hif, int ilen)$/;"	f	signature:(struct hpingif *hif, int ilen)
+hping_get_interfaces	interface.h	/^int hping_get_interfaces(struct hpingif *hif, int ilen);$/;"	p	signature:(struct hpingif *hif, int ilen)
+hping_optlist	parseoptions.c	/^static struct ago_optlist hping_optlist[] = {$/;"	v	typeref:struct:ago_optlist	file:
+hping_script	hping2.h	/^void	hping_script(int argc, char **argv);$/;"	p	signature:(int argc, char **argv)
+hping_script	script.c	/^void hping_script(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+hpingif	interface.h	/^struct hpingif {$/;"	s
+human_dump	waitpacket.c	/^static void human_dump(void *packet, int size);$/;"	p	file:	signature:(void *packet, int size)
+human_dump	waitpacket.c	/^void human_dump(void *packet, int size)$/;"	f	signature:(void *packet, int size)
+hval	hex.c	/^static char hval[256] = {$/;"	v	file:
+icmp_cksum	globals.h	/^		icmp_cksum,$/;"	x
+icmp_cksum	main.c	/^	icmp_cksum	= DEFAULT_ICMP_CKSUM,$/;"	v
+icmp_gw	globals.h	/^extern struct sockaddr_in icmp_ip_src, icmp_ip_dst, icmp_gw, local, remote;$/;"	x
+icmp_gw	main.c	/^	icmp_gw,$/;"	v	typeref:struct:
+icmp_gwip	globals.h	/^		icmp_gwip[1024],$/;"	x
+icmp_gwip	main.c	/^	icmp_gwip	[1024],$/;"	v
+icmp_help	hping2.h	/^void	icmp_help(void);			\/* show the ICMP help *\/$/;"	p	signature:(void)
+icmp_help	usage.c	/^void icmp_help(void)$/;"	f	signature:(void)
+icmp_ip_dst	globals.h	/^extern struct sockaddr_in icmp_ip_src, icmp_ip_dst, icmp_gw, local, remote;$/;"	x
+icmp_ip_dst	main.c	/^	icmp_ip_dst,$/;"	v	typeref:struct:
+icmp_ip_dstip	globals.h	/^		icmp_ip_dstip[1024],$/;"	x
+icmp_ip_dstip	main.c	/^	icmp_ip_dstip	[1024],$/;"	v
+icmp_ip_dstport	globals.h	/^		icmp_ip_dstport,$/;"	x
+icmp_ip_dstport	main.c	/^	icmp_ip_dstport	= DEFAULT_DPORT,$/;"	v
+icmp_ip_id	globals.h	/^		icmp_ip_id,$/;"	x
+icmp_ip_id	main.c	/^	icmp_ip_id	= DEFAULT_ICMP_IP_ID,$/;"	v
+icmp_ip_ihl	globals.h	/^		icmp_ip_ihl,$/;"	x
+icmp_ip_ihl	main.c	/^	icmp_ip_ihl	= DEFAULT_ICMP_IP_IHL,$/;"	v
+icmp_ip_protocol	globals.h	/^		icmp_ip_protocol,$/;"	x
+icmp_ip_protocol	main.c	/^	icmp_ip_protocol= DEFAULT_ICMP_IP_PROTOCOL,$/;"	v
+icmp_ip_src	globals.h	/^extern struct sockaddr_in icmp_ip_src, icmp_ip_dst, icmp_gw, local, remote;$/;"	x
+icmp_ip_src	main.c	/^	icmp_ip_src,$/;"	v	typeref:struct:sockaddr_in
+icmp_ip_srcip	globals.h	/^		icmp_ip_srcip[1024],$/;"	x
+icmp_ip_srcip	main.c	/^	icmp_ip_srcip	[1024],$/;"	v
+icmp_ip_srcport	globals.h	/^		icmp_ip_srcport,$/;"	x
+icmp_ip_srcport	main.c	/^	icmp_ip_srcport	= DEFAULT_DPORT,$/;"	v
+icmp_ip_tos	globals.h	/^		icmp_ip_tos,$/;"	x
+icmp_ip_tos	main.c	/^	icmp_ip_tos	= DEFAULT_ICMP_IP_TOS,$/;"	v
+icmp_ip_tot_len	globals.h	/^		icmp_ip_tot_len,$/;"	x
+icmp_ip_tot_len	main.c	/^	icmp_ip_tot_len = DEFAULT_ICMP_IP_TOT_LEN,$/;"	v
+icmp_ip_version	globals.h	/^		icmp_ip_version,$/;"	x
+icmp_ip_version	main.c	/^	icmp_ip_version = DEFAULT_ICMP_IP_VERSION,$/;"	v
+icmp_tstamp_data	hping2.h	/^struct icmp_tstamp_data {$/;"	s
+icmp_unreach_rtt	waitpacket.c	/^int icmp_unreach_rtt(void *quoted_ip, int size, int *seqp, float *ms_delay)$/;"	f	signature:(void *quoted_ip, int size, int *seqp, float *ms_delay)
+icmp_unreach_rtt	waitpacket.c	/^static int icmp_unreach_rtt(void *quoted_ip, int size,$/;"	p	file:	signature:(void *quoted_ip, int size, int *seqp, float *ms_delay)
+id	ars.h	/^			__u16   id;$/;"	m	struct:ars_icmphdr::__anon17::__anon18
+id	ars.h	/^			u_int16_t id;$/;"	m	struct:ars_ipopt::__anon5::__anon9
+id	ars.h	/^        __u16   id;$/;"	m	struct:ars_iphdr
+id	hping2.h	/^			__u16   id;$/;"	m	struct:myicmphdr::__anon1::__anon2
+id	hping2.h	/^        __u16   id;$/;"	m	struct:myiphdr
+id	scan.c	/^static int id;	\/* shared memory id *\/$/;"	v	file:
+if_flags	ars.h	/^	int if_flags;$/;"	m	struct:ars_iface
+if_ipv4addr	ars.h	/^	char if_ipv4addr[ARS_INET_ADDRSTRLEN];$/;"	m	struct:ars_iface
+if_ipv6addr	ars.h	/^	char if_ipv6addr[ARS_INET6_ADDRSTRLEN];$/;"	m	struct:ars_iface
+if_mtu	ars.h	/^	int if_mtu;$/;"	m	struct:ars_iface
+if_name	ars.h	/^	char if_name[ARS_IF_NAME_SIZE];$/;"	m	struct:ars_iface
+if_promisc_off	hping2.h	/^int	if_promisc_off(int s);			\/* promisc. mode OFF *\/$/;"	p	signature:(int s)
+if_promisc_off	if_promisc.c	/^int if_promisc_off(int s)$/;"	f	signature:(int s)
+if_promisc_on	hping2.h	/^int	if_promisc_on(int s);			\/* promisc. mode ON *\/$/;"	p	signature:(int s)
+if_promisc_on	if_promisc.c	/^int if_promisc_on(int s)$/;"	f	signature:(int s)
+ifname	globals.h	/^extern char	ifname[1024],$/;"	x
+ifname	main.c	/^	ifname		[1024] = {'\\0'},$/;"	v
+ifstraddr	globals.h	/^		ifstraddr[1024],$/;"	x
+ifstraddr	main.c	/^	ifstraddr	[1024],$/;"	v
+igrp_set_dest	apd.c	/^static int igrp_set_dest(unsigned char *d, char *v)$/;"	f	file:	signature:(unsigned char *d, char *v)
+igrp_set_uint24	apd.c	/^static void igrp_set_uint24(void *d, char *v)$/;"	f	file:	signature:(void *d, char *v)
+ihl	ars.h	/^        __u8    ihl:4,$/;"	m	struct:ars_iphdr
+ihl	hping2.h	/^        __u8    ihl:4,$/;"	m	struct:myiphdr
+inc_destparm	binding.c	/^void inc_destparm(int sid)$/;"	f	signature:(int sid)
+inc_destparm	hping2.h	/^void	inc_destparm(int sid);			\/* inc dst port or ttl *\/$/;"	p	signature:(int sid)
+info	ars.h	/^			u_int8_t info[4];$/;"	m	struct:ars_tcpopt::__anon11::__anon15
+initsport	globals.h	/^		initsport,$/;"	x
+initsport	main.c	/^	initsport	= DEFAULT_INITSPORT,$/;"	v
+int_16_t	fixtypes.h	/^typedef short                  int_16_t;$/;"	t
+int_32_t	fixtypes.h	/^typedef int                    int_32_t;$/;"	t
+int_8_t	fixtypes.h	/^typedef char                   int_8_t;$/;"	t
+interior	ars.h	/^	__u16	interior;$/;"	m	struct:ars_igrphdr
+ip	waitpacket.c	/^static struct myiphdr ip;$/;"	v	typeref:struct:myiphdr	file:
+ip_frag_offset	globals.h	/^		ip_frag_offset,$/;"	x
+ip_frag_offset	main.c	/^	ip_frag_offset	= 0,$/;"	v
+ip_header_length	globals.h	/^		ip_header_length,$/;"	x
+ip_opt	globals.h	/^		ip_opt[40],$/;"	x
+ip_opt	main.c	/^	ip_opt		[40],$/;"	v
+ip_opt_build	hping2.h	/^unsigned char ip_opt_build(char *ip_opt);		\/* build ip options *\/$/;"	p	signature:(char *ip_opt)
+ip_opt_build	ip_opt_build.c	/^unsigned char ip_opt_build(char* ip_opt)$/;"	f	signature:(char* ip_opt)
+ip_optlen	globals.h	/^		ip_optlen,$/;"	x
+ip_optlen	main.c	/^	ip_optlen	= 0;$/;"	v
+ip_size	waitpacket.c	/^static int ip_size;$/;"	v	file:
+ip_tos	globals.h	/^		ip_tos,$/;"	x
+ip_tos	main.c	/^	ip_tos = 0,$/;"	v
+ki_add	apd.c	/^	void *(*ki_add) (struct ars_packet *pkt, int opt);$/;"	m	struct:ars_d_keyword_info	file:
+ki_keyword	apd.c	/^	char *ki_keyword;$/;"	m	struct:ars_d_keyword_info	file:
+ki_opt	apd.c	/^	int ki_opt;$/;"	m	struct:ars_d_keyword_info	file:
+ki_set	apd.c	/^	int (*ki_set) (struct ars_packet *pkt, int layer, char *f, char *v);$/;"	m	struct:ars_d_keyword_info	file:
+kind	ars.h	/^	u_int8_t kind;$/;"	m	struct:ars_ipopt
+kind	ars.h	/^	u_int8_t kind;$/;"	m	struct:ars_tcpopt
+l	sbignum.h	/^	u_int32_t l;	\/* number of used bytes *\/$/;"	m	struct:struct_sbnz
+l_data	ars.h	/^	void *l_data;$/;"	m	struct:ars_layer
+l_flags	ars.h	/^	int l_flags;$/;"	m	struct:ars_layer
+l_packet	ars.h	/^	struct ars_packet *l_packet;$/;"	m	struct:ars_layer	typeref:struct:ars_layer::ars_packet
+l_size	ars.h	/^	int l_size;$/;"	m	struct:ars_layer
+l_type	ars.h	/^	int l_type;$/;"	m	struct:ars_layer
+layer_id	ars.h	/^	int layer_id;$/;"	m	struct:ars_layer_info
+left	adbuf.h	/^	size_t left;	\/* unused buffer size *\/$/;"	m	struct:adbuf
+len	ars.h	/^	u_int8_t len;$/;"	m	struct:ars_ipopt
+len	ars.h	/^	u_int8_t len;$/;"	m	struct:ars_tcpopt
+lenght	ars.h	/^	__u16 lenght;$/;"	m	struct:ars_pseudohdr
+lenght	hping2.h	/^	__u16 lenght;$/;"	m	struct:pseudohdr
+lexp	gentables.c	/^static unsigned long lexp(unsigned long b, int e);$/;"	p	file:	signature:(unsigned long b, int e)
+lexp	gentables.c	/^unsigned long lexp(unsigned long b, int e)$/;"	f	signature:(unsigned long b, int e)
+li_compiler	ars.h	/^	int (*li_compiler) (struct ars_packet *pkt, int layer); \/* NULL = NOP *\/$/;"	m	struct:ars_layer_info
+li_name	ars.h	/^	char *li_name; \/* NULL = unused slot *\/$/;"	m	struct:ars_layer_info
+li_rapd	ars.h	/^	int (*li_rapd) (struct adbuf *dest, struct ars_packet *pkt, int layer);$/;"	m	struct:ars_layer_info
+linkhdr_size	globals.h	/^		linkhdr_size,$/;"	x
+linkhdr_size	main.c	/^	linkhdr_size,				\/* physical layer header size *\/$/;"	v
+listenmain	hping2.h	/^void	listenmain(void);			\/* main for listen mode *\/$/;"	p	signature:(void)
+listenmain	listen.c	/^void listenmain(void)$/;"	f	signature:(void)
+load	ars.h	/^	__u8	load;$/;"	m	struct:ars_igrpentry
+local	globals.h	/^extern struct sockaddr_in icmp_ip_src, icmp_ip_dst, icmp_gw, local, remote;$/;"	x
+local	main.c	/^	local,$/;"	v	typeref:struct:
+log_icmp_addr	waitpacket.c	/^void log_icmp_addr(void *addrptr)$/;"	f	signature:(void *addrptr)
+log_icmp_timeexc	hping2.h	/^void	log_icmp_timeexc(char*, unsigned short);\/* ICMP time exceeded logger *\/$/;"	p	signature:(char*, unsigned short)
+log_icmp_timeexc	logicmp.c	/^void log_icmp_timeexc(char *src_addr, unsigned short icmp_code)$/;"	f	signature:(char *src_addr, unsigned short icmp_code)
+log_icmp_ts	waitpacket.c	/^void log_icmp_ts(void *ts)$/;"	f	signature:(void *ts)
+log_icmp_unreach	hping2.h	/^void	log_icmp_unreach(char*, unsigned short);\/* ICMP unreachable logger *\/$/;"	p	signature:(char*, unsigned short)
+log_icmp_unreach	logicmp.c	/^void log_icmp_unreach(char *src_addr, unsigned short icmp_code)$/;"	f	signature:(char *src_addr, unsigned short icmp_code)
+log_ip	waitpacket.c	/^void log_ip(int status, int sequence)$/;"	f	signature:(int status, int sequence)
+log_traceroute	waitpacket.c	/^void log_traceroute(void *packet, int size, int icmp_code)$/;"	f	signature:(void *packet, int size, int icmp_code)
+logbn	gentables.c	/^double logbn(double base, double n)$/;"	f	signature:(double base, double n)
+logbn	gentables.c	/^static double logbn(double base, double n);$/;"	p	file:	signature:(double base, double n)
+lsr	globals.h	/^extern unsigned char 	lsr[255],$/;"	x
+lsr	main.c	/^	lsr		[255] = {0},$/;"	v
+lsr_length	globals.h	/^		lsr_length,$/;"	x
+lsr_length	main.c	/^	lsr_length = 0,$/;"	v
+main	adbuf.c	/^int main(void)$/;"	f	signature:(void)
+main	apdutils.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	byteorder.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	gentables.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	hex.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	interface.c	/^int main(void)$/;"	f	signature:(void)
+main	main.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+maxexp	sbignum-tables.h	/^	unsigned long maxexp;$/;"	m	struct:sbn_basepow
+maxpow	sbignum-tables.h	/^	unsigned long maxpow;$/;"	m	struct:sbn_basepow
+mc_context	ars.h	/^struct mc_context {$/;"	s
+memlock	hping2.h	/^int	memlock(char *addr, size_t size);	\/* disable paging *\/$/;"	p	signature:(char *addr, size_t size)
+memlock	memlock.c	/^int memlock(char *addr, size_t size)$/;"	f	signature:(char *addr, size_t size)
+memlockall	hping2.h	/^int	memlockall(void);			\/* disable paging (all pages) *\/$/;"	p	signature:(void)
+memlockall	memlockall.c	/^int memlockall(void)$/;"	f	signature:(void)
+memstr	hping2.h	/^char	*memstr(char *haystack, char *needle, int size); \/* memstr *\/$/;"	p	signature:(char *haystack, char *needle, int size)
+memstr	memstr.c	/^char *memstr(char *haystack, char *needle, int size)$/;"	f	signature:(char *haystack, char *needle, int size)
+memunlock	hping2.h	/^int	memunlock(char *addr, size_t size);	\/* enable paging *\/$/;"	p	signature:(char *addr, size_t size)
+memunlock	memunlock.c	/^int memunlock(char *addr, size_t size)$/;"	f	signature:(char *addr, size_t size)
+memunlockall	hping2.h	/^int	memunlockall(void);			\/* enable paging (all pages) *\/$/;"	p	signature:(void)
+memunlockall	memunlockall.c	/^int memunlockall(void)$/;"	f	signature:(void)
+mii_data	interface.h	/^struct mii_data {$/;"	s
+milliseconds	getusec.c	/^time_t milliseconds(void)$/;"	f	signature:(void)
+milliseconds	hping2.h	/^time_t	milliseconds(void);			\/* ms from UT midnight *\/$/;"	p	signature:(void)
+minavgmax	rtt.c	/^void minavgmax(float ms_delay)$/;"	f	signature:(float ms_delay)
+mpz_abs	sbignum.c	/^int mpz_abs(mpz_ptr d, mpz_ptr s)$/;"	f	signature:(mpz_ptr d, mpz_ptr s)
+mpz_abs	sbignum.h	/^int	mpz_abs(mpz_ptr d, mpz_ptr s);$/;"	p	signature:(mpz_ptr d, mpz_ptr s)
+mpz_abscmp	sbignum.h	/^int32_t	mpz_abscmp(mpz_ptr a, mpz_ptr b);$/;"	p	signature:(mpz_ptr a, mpz_ptr b)
+mpz_abscmp_ui	sbignum.h	/^int32_t mpz_abscmp_ui(mpz_ptr a, u_int32_t u);$/;"	p	signature:(mpz_ptr a, u_int32_t u)
+mpz_add	sbignum.c	/^int mpz_add(mpz_ptr r, mpz_ptr a, mpz_ptr b)$/;"	f	signature:(mpz_ptr r, mpz_ptr a, mpz_ptr b)
+mpz_add	sbignum.h	/^int	mpz_add(mpz_ptr r, mpz_ptr a, mpz_ptr b);$/;"	p	signature:(mpz_ptr r, mpz_ptr a, mpz_ptr b)
+mpz_add_si	sbignum.c	/^int mpz_add_si(mpz_ptr r, mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_add_si	sbignum.h	/^int	mpz_add_si(mpz_ptr r, mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_add_ui	sbignum.c	/^int mpz_add_ui(mpz_ptr r, mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_add_ui	sbignum.h	/^int	mpz_add_ui(mpz_ptr r, mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_addi_raw	sbignum.c	/^int mpz_addi_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_addi_raw	sbignum.c	/^static int	mpz_addi_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l);$/;"	p	file:	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_and	sbignum.c	/^int mpz_and(mpz_ptr r, mpz_ptr z, mpz_ptr m)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr m)
+mpz_atom_t	sbignum.h	/^typedef u_int16_t mpz_atom_t;$/;"	t
+mpz_atom_t	sbignum.h	/^typedef u_int32_t mpz_atom_t;$/;"	t
+mpz_atom_t	sbignum.h	/^typedef u_int8_t mpz_atom_t;$/;"	t
+mpz_bits	sbignum.c	/^u_int32_t mpz_bits(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_bits	sbignum.h	/^u_int32_t mpz_bits(mpz_ptr z);$/;"	p	signature:(mpz_ptr z)
+mpz_carry_t	sbignum.h	/^typedef u_int32_t mpz_carry_t;$/;"	t
+mpz_carry_t	sbignum.h	/^typedef u_int64_t mpz_carry_t;$/;"	t
+mpz_clear	sbignum.c	/^void mpz_clear(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_clear	sbignum.h	/^void	mpz_clear(mpz_ptr z);$/;"	p	signature:(mpz_ptr z)
+mpz_clrbit	sbignum.c	/^int mpz_clrbit(mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr z, u_int32_t i)
+mpz_clrbit	sbignum.h	/^int	mpz_clrbit(mpz_ptr z, u_int32_t i);$/;"	p	signature:(mpz_ptr z, u_int32_t i)
+mpz_cmp	sbignum.c	/^int32_t mpz_cmp(mpz_ptr a, mpz_ptr b)$/;"	f	signature:(mpz_ptr a, mpz_ptr b)
+mpz_cmp	sbignum.h	/^int32_t mpz_cmp(mpz_ptr a, mpz_ptr b);$/;"	p	signature:(mpz_ptr a, mpz_ptr b)
+mpz_cmp_si	sbignum.c	/^int32_t mpz_cmp_si(mpz_ptr a, int32_t s)$/;"	f	signature:(mpz_ptr a, int32_t s)
+mpz_cmp_si	sbignum.h	/^int32_t mpz_cmp_si(mpz_ptr a, int32_t s);$/;"	p	signature:(mpz_ptr a, int32_t s)
+mpz_cmp_ui	sbignum.c	/^int32_t mpz_cmp_ui(mpz_ptr a, u_int32_t u)$/;"	f	signature:(mpz_ptr a, u_int32_t u)
+mpz_cmp_ui	sbignum.h	/^int32_t mpz_cmp_ui(mpz_ptr a, u_int32_t u);$/;"	p	signature:(mpz_ptr a, u_int32_t u)
+mpz_cmpabs	sbignum.c	/^int32_t mpz_cmpabs(mpz_ptr a, mpz_ptr b)$/;"	f	signature:(mpz_ptr a, mpz_ptr b)
+mpz_cmpabs	sbignum.c	/^static int32_t mpz_cmpabs(mpz_ptr a, mpz_ptr b);$/;"	p	file:	signature:(mpz_ptr a, mpz_ptr b)
+mpz_cmpabs_ui	sbignum.c	/^int32_t mpz_cmpabs_ui(mpz_ptr a, u_int32_t u)$/;"	f	signature:(mpz_ptr a, u_int32_t u)
+mpz_cmpabsi_raw	sbignum.c	/^int32_t mpz_cmpabsi_raw(mpz_ptr a, mpz_atom_t *d, u_int32_t l)$/;"	f	signature:(mpz_ptr a, mpz_atom_t *d, u_int32_t l)
+mpz_cmpabsi_raw	sbignum.c	/^static int32_t mpz_cmpabsi_raw(mpz_ptr a, mpz_atom_t *d, u_int32_t l);$/;"	p	file:	signature:(mpz_ptr a, mpz_atom_t *d, u_int32_t l)
+mpz_dec	sbignum.h	71;"	d
+mpz_divi_qr_raw	sbignum.c	/^int mpz_divi_qr_raw(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)$/;"	f	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_divi_qr_raw	sbignum.c	/^static int	mpz_divi_qr_raw(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_atom_t *d,$/;"	p	file:	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_divi_r_raw	sbignum.c	/^int mpz_divi_r_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_divi_r_raw	sbignum.c	/^static int	mpz_divi_r_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l);$/;"	p	file:	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_eq	sbignum.h	86;"	d
+mpz_eq_si	sbignum.h	94;"	d
+mpz_fac_ui	sbignum.c	/^int mpz_fac_ui(mpz_ptr r, u_int32_t i)$/;"	f	signature:(mpz_ptr r, u_int32_t i)
+mpz_fac_ui	sbignum.h	/^int	mpz_fac_ui(mpz_ptr r, u_int32_t i);$/;"	p	signature:(mpz_ptr r, u_int32_t i)
+mpz_gcd	sbignum.c	/^int mpz_gcd(mpz_ptr g, mpz_ptr a, mpz_ptr b)$/;"	f	signature:(mpz_ptr g, mpz_ptr a, mpz_ptr b)
+mpz_gcd	sbignum.h	/^int	mpz_gcd(mpz_ptr g, mpz_ptr a, mpz_ptr b);$/;"	p	signature:(mpz_ptr g, mpz_ptr a, mpz_ptr b)
+mpz_gcd_raw	sbignum.c	/^int mpz_gcd_raw(mpz_ptr g, mpz_ptr a, mpz_atom_t *b, u_int32_t l)$/;"	f	signature:(mpz_ptr g, mpz_ptr a, mpz_atom_t *b, u_int32_t l)
+mpz_gcd_raw	sbignum.c	/^static int	mpz_gcd_raw(mpz_ptr g, mpz_ptr a, mpz_atom_t *b, u_int32_t l);$/;"	p	file:	signature:(mpz_ptr g, mpz_ptr a, mpz_atom_t *b, u_int32_t l)
+mpz_gcd_ui	sbignum.c	/^u_int32_t mpz_gcd_ui(mpz_ptr g, mpz_ptr a, u_int32_t b)$/;"	f	signature:(mpz_ptr g, mpz_ptr a, u_int32_t b)
+mpz_gcd_ui	sbignum.h	/^u_int32_t mpz_gcd_ui(mpz_ptr g, mpz_ptr a, u_int32_t b);$/;"	p	signature:(mpz_ptr g, mpz_ptr a, u_int32_t b)
+mpz_ge	sbignum.h	91;"	d
+mpz_ge_si	sbignum.h	99;"	d
+mpz_get_d	sbignum.c	/^double mpz_get_d(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_get_d	sbignum.h	/^double	mpz_get_d(mpz_ptr z);$/;"	p	signature:(mpz_ptr z)
+mpz_get_str	sbignum.c	/^char *mpz_get_str(char *str, int b, mpz_ptr z)$/;"	f	signature:(char *str, int b, mpz_ptr z)
+mpz_get_str	sbignum.h	/^char	*mpz_get_str(char *str, int b, mpz_ptr z);$/;"	p	signature:(char *str, int b, mpz_ptr z)
+mpz_gt	sbignum.h	90;"	d
+mpz_gt_si	sbignum.h	98;"	d
+mpz_inc	sbignum.h	70;"	d
+mpz_init	sbignum.c	/^void mpz_init(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_init	sbignum.h	/^void	mpz_init(mpz_ptr z);$/;"	p	signature:(mpz_ptr z)
+mpz_is_odd	sbignum.c	420;"	d	file:
+mpz_le	sbignum.h	89;"	d
+mpz_le_si	sbignum.h	97;"	d
+mpz_lshift	sbignum.c	/^int mpz_lshift(mpz_ptr r, mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, u_int32_t i)
+mpz_lshift	sbignum.h	/^int	mpz_lshift(mpz_ptr r, mpz_ptr z, u_int32_t i);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, u_int32_t i)
+mpz_lshiftword	sbignum.c	/^int mpz_lshiftword(mpz_ptr r, u_int32_t i)$/;"	f	signature:(mpz_ptr r, u_int32_t i)
+mpz_lshiftword	sbignum.c	/^static int	mpz_lshiftword(mpz_ptr r, u_int32_t i);$/;"	p	file:	signature:(mpz_ptr r, u_int32_t i)
+mpz_lt	sbignum.h	88;"	d
+mpz_lt_si	sbignum.h	96;"	d
+mpz_mod	sbignum.c	/^int mpz_mod(mpz_ptr r, mpz_ptr z, mpz_ptr m)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr m)
+mpz_mod	sbignum.h	/^int	mpz_mod(mpz_ptr r, mpz_ptr z, mpz_ptr m);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr m)
+mpz_mul	sbignum.c	/^int mpz_mul(mpz_ptr r, mpz_ptr z, mpz_ptr f)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr f)
+mpz_mul	sbignum.h	/^int	mpz_mul(mpz_ptr r, mpz_ptr z, mpz_ptr f);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr f)
+mpz_mul_si	sbignum.c	/^int mpz_mul_si(mpz_ptr r, mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_mul_si	sbignum.h	/^int	mpz_mul_si(mpz_ptr r, mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_mul_ui	sbignum.c	/^int mpz_mul_ui(mpz_ptr r, mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_mul_ui	sbignum.h	/^int	mpz_mul_ui(mpz_ptr r, mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_muli_raw	sbignum.c	/^int mpz_muli_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_muli_raw	sbignum.c	/^static int	mpz_muli_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l);$/;"	p	file:	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_neg	sbignum.c	/^int mpz_neg(mpz_ptr d, mpz_ptr s)$/;"	f	signature:(mpz_ptr d, mpz_ptr s)
+mpz_neg	sbignum.h	/^int	mpz_neg(mpz_ptr d, mpz_ptr s);$/;"	p	signature:(mpz_ptr d, mpz_ptr s)
+mpz_normalize	sbignum.c	/^void mpz_normalize(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_normalize_sign	sbignum.c	/^void mpz_normalize_sign(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_noteq	sbignum.h	87;"	d
+mpz_noteq_si	sbignum.h	95;"	d
+mpz_pow	sbignum.c	/^int mpz_pow(mpz_ptr r, mpz_ptr b, mpz_ptr e)$/;"	f	signature:(mpz_ptr r, mpz_ptr b, mpz_ptr e)
+mpz_pow	sbignum.h	/^int	mpz_pow(mpz_ptr r, mpz_ptr b, mpz_ptr e);$/;"	p	signature:(mpz_ptr r, mpz_ptr b, mpz_ptr e)
+mpz_powm	sbignum.c	/^int mpz_powm(mpz_ptr r, mpz_ptr b, mpz_ptr e, mpz_ptr m)$/;"	f	signature:(mpz_ptr r, mpz_ptr b, mpz_ptr e, mpz_ptr m)
+mpz_powm	sbignum.h	/^int	mpz_powm(mpz_ptr r, mpz_ptr b, mpz_ptr e, mpz_ptr m);$/;"	p	signature:(mpz_ptr r, mpz_ptr b, mpz_ptr e, mpz_ptr m)
+mpz_ptr	sbignum.h	/^typedef struct struct_sbnz *mpz_ptr;$/;"	t	typeref:struct:struct_sbnz
+mpz_random	sbignum.c	/^int mpz_random(mpz_ptr z, int32_t len)$/;"	f	signature:(mpz_ptr z, int32_t len)
+mpz_random	sbignum.h	/^int	mpz_random(mpz_ptr z, int32_t len);$/;"	p	signature:(mpz_ptr z, int32_t len)
+mpz_realloc	sbignum.c	/^int mpz_realloc(mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr z, u_int32_t i)
+mpz_realloc	sbignum.h	/^int	mpz_realloc(mpz_ptr z, u_int32_t i);$/;"	p	signature:(mpz_ptr z, u_int32_t i)
+mpz_rshift	sbignum.c	/^int mpz_rshift(mpz_ptr r, mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, u_int32_t i)
+mpz_rshift	sbignum.h	/^int	mpz_rshift(mpz_ptr r, mpz_ptr z, u_int32_t i);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, u_int32_t i)
+mpz_rshiftword	sbignum.c	/^int mpz_rshiftword(mpz_ptr r, u_int32_t i)$/;"	f	signature:(mpz_ptr r, u_int32_t i)
+mpz_rshiftword	sbignum.c	/^static int	mpz_rshiftword(mpz_ptr r, u_int32_t i);$/;"	p	file:	signature:(mpz_ptr r, u_int32_t i)
+mpz_scarry_t	sbignum.h	/^typedef int32_t mpz_scarry_t;$/;"	t
+mpz_scarry_t	sbignum.h	/^typedef int64_t mpz_scarry_t;$/;"	t
+mpz_set	sbignum.c	/^int mpz_set(mpz_ptr d, mpz_ptr s)$/;"	f	signature:(mpz_ptr d, mpz_ptr s)
+mpz_set	sbignum.h	/^int	mpz_set(mpz_ptr d, mpz_ptr s);$/;"	p	signature:(mpz_ptr d, mpz_ptr s)
+mpz_set_d	sbignum.c	/^int mpz_set_d(mpz_ptr z, double d)$/;"	f	signature:(mpz_ptr z, double d)
+mpz_set_d	sbignum.h	/^int	mpz_set_d(mpz_ptr z, double d);$/;"	p	signature:(mpz_ptr z, double d)
+mpz_set_si	sbignum.c	/^int mpz_set_si(mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr z, int32_t s)
+mpz_set_si	sbignum.h	/^int	mpz_set_si(mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr z, int32_t s)
+mpz_set_si64	sbignum.c	/^int mpz_set_si64(mpz_ptr z, int64_t s)$/;"	f	signature:(mpz_ptr z, int64_t s)
+mpz_set_si64	sbignum.h	/^int	mpz_set_si64(mpz_ptr z, int64_t s);$/;"	p	signature:(mpz_ptr z, int64_t s)
+mpz_set_str	sbignum.c	/^int mpz_set_str(mpz_ptr z, char *s, int b)$/;"	f	signature:(mpz_ptr z, char *s, int b)
+mpz_set_str	sbignum.h	/^int	mpz_set_str(mpz_ptr z, char *s, int b);$/;"	p	signature:(mpz_ptr z, char *s, int b)
+mpz_set_ui	sbignum.c	/^int mpz_set_ui(mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr z, u_int32_t u)
+mpz_set_ui	sbignum.h	/^int	mpz_set_ui(mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr z, u_int32_t u)
+mpz_set_ui64	sbignum.c	/^int mpz_set_ui64(mpz_ptr z, u_int64_t u)$/;"	f	signature:(mpz_ptr z, u_int64_t u)
+mpz_set_ui64	sbignum.h	/^int	mpz_set_ui64(mpz_ptr z, u_int64_t u);$/;"	p	signature:(mpz_ptr z, u_int64_t u)
+mpz_setbit	sbignum.c	/^int mpz_setbit(mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr z, u_int32_t i)
+mpz_setbit	sbignum.h	/^int	mpz_setbit(mpz_ptr z, u_int32_t i);$/;"	p	signature:(mpz_ptr z, u_int32_t i)
+mpz_setzero	sbignum.c	/^int mpz_setzero(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_setzero	sbignum.h	/^int	mpz_setzero(mpz_ptr z);$/;"	p	signature:(mpz_ptr z)
+mpz_sizeinbase	sbignum.c	/^size_t mpz_sizeinbase(mpz_ptr z, u_int32_t b)$/;"	f	signature:(mpz_ptr z, u_int32_t b)
+mpz_sizeinbase	sbignum.h	/^size_t mpz_sizeinbase(mpz_ptr z, u_int32_t b);$/;"	p	signature:(mpz_ptr z, u_int32_t b)
+mpz_sqrt	sbignum.c	/^int mpz_sqrt(mpz_ptr r, mpz_ptr z)$/;"	f	signature:(mpz_ptr r, mpz_ptr z)
+mpz_sqrt	sbignum.h	/^int	mpz_sqrt(mpz_ptr r, mpz_ptr z);$/;"	p	signature:(mpz_ptr r, mpz_ptr z)
+mpz_sub	sbignum.c	/^int mpz_sub(mpz_ptr r, mpz_ptr a, mpz_ptr b)$/;"	f	signature:(mpz_ptr r, mpz_ptr a, mpz_ptr b)
+mpz_sub	sbignum.h	/^int	mpz_sub(mpz_ptr r, mpz_ptr a, mpz_ptr b);$/;"	p	signature:(mpz_ptr r, mpz_ptr a, mpz_ptr b)
+mpz_sub_si	sbignum.c	/^int mpz_sub_si(mpz_ptr r, mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_sub_si	sbignum.h	/^int	mpz_sub_si(mpz_ptr r, mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_sub_ui	sbignum.c	/^int mpz_sub_ui(mpz_ptr r, mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_sub_ui	sbignum.h	/^int	mpz_sub_ui(mpz_ptr r, mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_subi_raw	sbignum.c	/^int mpz_subi_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_subi_raw	sbignum.c	/^static int	mpz_subi_raw(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l);$/;"	p	file:	signature:(mpz_ptr r, mpz_ptr z, mpz_atom_t *d, u_int32_t l)
+mpz_t	sbignum.h	/^typedef struct struct_sbnz mpz_t[1];$/;"	t	typeref:struct:struct_sbnz
+mpz_tdiv_q	sbignum.c	/^int mpz_tdiv_q(mpz_ptr q, mpz_ptr z, mpz_ptr d)$/;"	f	signature:(mpz_ptr q, mpz_ptr z, mpz_ptr d)
+mpz_tdiv_q	sbignum.h	/^int	mpz_tdiv_q(mpz_ptr q, mpz_ptr z, mpz_ptr d);$/;"	p	signature:(mpz_ptr q, mpz_ptr z, mpz_ptr d)
+mpz_tdiv_q_si	sbignum.c	/^int mpz_tdiv_q_si(mpz_ptr q, mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr q, mpz_ptr z, int32_t s)
+mpz_tdiv_q_si	sbignum.h	/^int	mpz_tdiv_q_si(mpz_ptr q, mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr q, mpz_ptr z, int32_t s)
+mpz_tdiv_q_ui	sbignum.c	/^int mpz_tdiv_q_ui(mpz_ptr q, mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr q, mpz_ptr z, u_int32_t u)
+mpz_tdiv_q_ui	sbignum.h	/^int	mpz_tdiv_q_ui(mpz_ptr q, mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr q, mpz_ptr z, u_int32_t u)
+mpz_tdiv_qr	sbignum.c	/^int mpz_tdiv_qr(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_ptr d)$/;"	f	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_ptr d)
+mpz_tdiv_qr	sbignum.h	/^int	mpz_tdiv_qr(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_ptr d);$/;"	p	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, mpz_ptr d)
+mpz_tdiv_qr_si	sbignum.c	/^int mpz_tdiv_qr_si(mpz_ptr q, mpz_ptr r, mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_tdiv_qr_si	sbignum.h	/^int	mpz_tdiv_qr_si(mpz_ptr q, mpz_ptr r, mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_tdiv_qr_ui	sbignum.c	/^int mpz_tdiv_qr_ui(mpz_ptr q, mpz_ptr r, mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_tdiv_qr_ui	sbignum.h	/^int	mpz_tdiv_qr_ui(mpz_ptr q, mpz_ptr r, mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr q, mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_tdiv_r	sbignum.c	/^int mpz_tdiv_r(mpz_ptr r, mpz_ptr z, mpz_ptr d)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr d)
+mpz_tdiv_r	sbignum.h	/^int	mpz_tdiv_r(mpz_ptr r, mpz_ptr z, mpz_ptr d);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, mpz_ptr d)
+mpz_tdiv_r_si	sbignum.c	/^int mpz_tdiv_r_si(mpz_ptr r, mpz_ptr z, int32_t s)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_tdiv_r_si	sbignum.h	/^int	mpz_tdiv_r_si(mpz_ptr r, mpz_ptr z, int32_t s);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, int32_t s)
+mpz_tdiv_r_ui	sbignum.c	/^int mpz_tdiv_r_ui(mpz_ptr r, mpz_ptr z, u_int32_t u)$/;"	f	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_tdiv_r_ui	sbignum.h	/^int	mpz_tdiv_r_ui(mpz_ptr r, mpz_ptr z, u_int32_t u);$/;"	p	signature:(mpz_ptr r, mpz_ptr z, u_int32_t u)
+mpz_testbit	sbignum.c	/^int mpz_testbit(mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr z, u_int32_t i)
+mpz_testbit	sbignum.h	/^int	mpz_testbit(mpz_ptr z, u_int32_t i);$/;"	p	signature:(mpz_ptr z, u_int32_t i)
+mpz_tostr	sbignum.c	/^int mpz_tostr(mpz_ptr z, u_int32_t b, void *s, size_t l)$/;"	f	signature:(mpz_ptr z, u_int32_t b, void *s, size_t l)
+mpz_tostr	sbignum.c	/^static int	mpz_tostr(mpz_ptr z, u_int32_t b, void *s, size_t l);$/;"	p	file:	signature:(mpz_ptr z, u_int32_t b, void *s, size_t l)
+mpz_zero	sbignum.c	/^static void	mpz_zero(mpz_ptr z);$/;"	p	file:	signature:(mpz_ptr z)
+mpz_zero	sbignum.c	/^void mpz_zero(mpz_ptr z)$/;"	f	signature:(mpz_ptr z)
+mpz_zero_realloc	sbignum.c	/^int mpz_zero_realloc(mpz_ptr z, u_int32_t i)$/;"	f	signature:(mpz_ptr z, u_int32_t i)
+mpz_zero_realloc	sbignum.c	/^static int	mpz_zero_realloc(mpz_ptr z, u_int32_t i);$/;"	p	file:	signature:(mpz_ptr z, u_int32_t i)
+msg	antigetopt.c	/^	char *msg;$/;"	m	struct:ago_exception	file:
+mss	ars.h	/^		} mss;$/;"	m	union:ars_tcpopt::__anon11	typeref:struct:ars_tcpopt::__anon11::__anon12
+mtu	ars.h	/^	__u8	mtu[2];$/;"	m	struct:ars_igrpentry
+myicmphdr	hping2.h	/^struct myicmphdr$/;"	s
+myiphdr	hping2.h	/^struct myiphdr {$/;"	s
+mytcphdr	hping2.h	/^struct mytcphdr {$/;"	s
+myudphdr	hping2.h	/^struct myudphdr { $/;"	s
+name	script.c	/^	char *name;$/;"	m	struct:subcmd	file:
+nbits	gentables.c	/^int nbits(unsigned char x)$/;"	f	signature:(unsigned char x)
+nbits	gentables.c	/^static int nbits(unsigned char x);$/;"	p	file:	signature:(unsigned char x)
+nop	hping2.h	/^void	nop(void);				\/* nop *\/$/;"	p	signature:(void)
+oddbyte	ars.h	/^	u_int8_t oddbyte;$/;"	m	struct:mc_context
+oddbyte_flag	ars.h	/^	u_int32_t oddbyte_flag;$/;"	m	struct:mc_context
+old	ars.h	/^	u_int32_t old;$/;"	m	struct:mc_context
+opcode	ars.h	/^        __u8    opcode:4,$/;"	m	struct:ars_igrphdr
+open_pcap	hping2.h	/^int	open_pcap(void);			\/* open libpcap socket *\/$/;"	p	signature:(void)
+open_pcap	libpcap_stuff.c	/^int open_pcap()$/;"	f
+open_sockpacket	hping2.h	/^int	open_sockpacket(void);			\/* open SOCK_PACKET socket *\/$/;"	p	signature:(void)
+open_sockpacket_ifindex	hping2.h	/^int	open_sockpacket_ifindex(int ifindex);$/;"	p	signature:(int ifindex)
+open_sockraw	hping2.h	/^int	open_sockraw(void);			\/* open raw socket *\/$/;"	p	signature:(void)
+open_sockraw	opensockraw.c	/^int open_sockraw()$/;"	f
+opt_badcksum	globals.h	/^		opt_badcksum,$/;"	x
+opt_badcksum	main.c	/^	opt_badcksum	= FALSE,$/;"	v
+opt_beep	globals.h	/^		opt_beep,$/;"	x
+opt_beep	main.c	/^	opt_beep	= FALSE,$/;"	v
+opt_contdump	globals.h	/^		opt_contdump,$/;"	x
+opt_contdump	main.c	/^	opt_contdump	= FALSE,$/;"	v
+opt_cplt_rte	main.c	/^	opt_cplt_rte    = FALSE,$/;"	v
+opt_datafromfile	globals.h	/^		opt_datafromfile,$/;"	x
+opt_datafromfile	main.c	/^	opt_datafromfile= FALSE,$/;"	v
+opt_debug	globals.h	/^		opt_debug,$/;"	x
+opt_debug	globals.h	/^extern int	opt_debug,$/;"	x
+opt_debug	main.c	/^	opt_debug	= FALSE,$/;"	v
+opt_df	globals.h	/^		opt_df,$/;"	x
+opt_df	main.c	/^	opt_df		= FALSE,$/;"	v
+opt_end	globals.h	/^		opt_end,$/;"	x
+opt_end	main.c	/^	opt_end		= FALSE,$/;"	v
+opt_flood	globals.h	/^		opt_flood,$/;"	x
+opt_flood	main.c	/^	opt_flood	= FALSE,$/;"	v
+opt_force_icmp	globals.h	/^		opt_force_icmp,$/;"	x
+opt_force_icmp	main.c	/^	opt_force_icmp  = FALSE,$/;"	v
+opt_force_incdport	globals.h	/^		opt_force_incdport,$/;"	x
+opt_force_incdport	main.c	/^	opt_force_incdport = FALSE,$/;"	v
+opt_fragment	globals.h	/^		opt_fragment,$/;"	x
+opt_fragment	main.c	/^	opt_fragment	= FALSE,$/;"	v
+opt_gethost	globals.h	/^		opt_gethost,$/;"	x
+opt_gethost	main.c	/^	opt_gethost	= TRUE,$/;"	v
+opt_hexdump	globals.h	/^		opt_hexdump,$/;"	x
+opt_hexdump	main.c	/^	opt_hexdump	= FALSE,$/;"	v
+opt_icmpcode	globals.h	/^		opt_icmpcode,$/;"	x
+opt_icmpcode	main.c	/^	opt_icmpcode	= DEFAULT_ICMP_CODE,$/;"	v
+opt_icmpmode	globals.h	/^		opt_icmpmode,$/;"	x
+opt_icmpmode	main.c	/^	opt_icmpmode	= FALSE,$/;"	v
+opt_icmptype	globals.h	/^		opt_icmptype,$/;"	x
+opt_icmptype	main.c	/^	opt_icmptype	= DEFAULT_ICMP_TYPE,$/;"	v
+opt_incdport	globals.h	/^		opt_incdport,$/;"	x
+opt_incdport	main.c	/^	opt_incdport	= FALSE,$/;"	v
+opt_keepstill	globals.h	/^		opt_keepstill,$/;"	x
+opt_keepstill	main.c	/^	opt_keepstill	= FALSE,$/;"	v
+opt_listenmode	globals.h	/^		opt_listenmode,$/;"	x
+opt_listenmode	main.c	/^	opt_listenmode  = FALSE,$/;"	v
+opt_lsrr	globals.h	/^		opt_lsrr,$/;"	x
+opt_lsrr	main.c	/^	opt_lsrr        = FALSE,$/;"	v
+opt_mf	globals.h	/^		opt_mf,$/;"	x
+opt_mf	main.c	/^	opt_mf		= FALSE,$/;"	v
+opt_numeric	globals.h	/^		opt_numeric,$/;"	x
+opt_numeric	main.c	/^	opt_numeric	= FALSE,$/;"	v
+opt_quiet	globals.h	/^		opt_quiet,$/;"	x
+opt_quiet	main.c	/^	opt_quiet	= FALSE,$/;"	v
+opt_rand_dest	globals.h	/^		opt_rand_dest,$/;"	x
+opt_rand_dest	main.c	/^	opt_rand_dest	= FALSE,$/;"	v
+opt_rand_source	globals.h	/^		opt_rand_source,$/;"	x
+opt_rand_source	main.c	/^	opt_rand_source	= FALSE,$/;"	v
+opt_rawipmode	globals.h	/^		opt_rawipmode,$/;"	x
+opt_rawipmode	main.c	/^	opt_rawipmode	= FALSE,$/;"	v
+opt_relid	globals.h	/^		opt_relid,$/;"	x
+opt_relid	main.c	/^	opt_relid	= FALSE,$/;"	v
+opt_rroute	globals.h	/^		opt_rroute,$/;"	x
+opt_rroute	main.c	/^	opt_rroute	= FALSE,$/;"	v
+opt_safe	globals.h	/^		opt_safe,$/;"	x
+opt_safe	main.c	/^	opt_safe	= FALSE,$/;"	v
+opt_scan_probes	scan.c	/^int opt_scan_probes = 8;$/;"	v
+opt_scanmode	globals.h	/^		opt_scanmode,$/;"	x
+opt_scanmode	main.c	/^	opt_scanmode	= FALSE,$/;"	v
+opt_scanports	globals.h	/^		*opt_scanports;$/;"	x
+opt_scanports	main.c	/^	*opt_scanports = "";$/;"	v
+opt_seqnum	globals.h	/^		opt_seqnum,$/;"	x
+opt_seqnum	main.c	/^	opt_seqnum	= FALSE,$/;"	v
+opt_sign	globals.h	/^		opt_sign,$/;"	x
+opt_sign	main.c	/^	opt_sign	= FALSE,$/;"	v
+opt_ssrr	globals.h	/^		opt_ssrr,$/;"	x
+opt_ssrr	main.c	/^	opt_ssrr        = FALSE,$/;"	v
+opt_tcp_timestamp	globals.h	/^		opt_tcp_timestamp,$/;"	x
+opt_tcp_timestamp	main.c	/^	opt_tcp_timestamp = FALSE,$/;"	v
+opt_tcpexitcode	globals.h	/^		opt_tcpexitcode,$/;"	x
+opt_tcpexitcode	main.c	/^	opt_tcpexitcode	= FALSE,$/;"	v
+opt_tr_keep_ttl	globals.h	/^		opt_tr_keep_ttl,$/;"	x
+opt_tr_keep_ttl	main.c	/^	opt_tr_keep_ttl = FALSE,$/;"	v
+opt_tr_no_rtt	globals.h	/^		opt_tr_no_rtt,$/;"	x
+opt_tr_no_rtt	main.c	/^	opt_tr_no_rtt	= FALSE,$/;"	v
+opt_tr_stop	globals.h	/^		opt_tr_stop,$/;"	x
+opt_tr_stop	main.c	/^	opt_tr_stop	= FALSE,$/;"	v
+opt_traceroute	globals.h	/^		opt_traceroute,$/;"	x
+opt_traceroute	main.c	/^	opt_traceroute  = FALSE,$/;"	v
+opt_udpmode	globals.h	/^		opt_udpmode,$/;"	x
+opt_udpmode	main.c	/^	opt_udpmode	= FALSE,$/;"	v
+opt_verbose	globals.h	/^		opt_verbose,$/;"	x
+opt_verbose	main.c	/^	opt_verbose	= FALSE,$/;"	v
+opt_waitinusec	globals.h	/^		opt_waitinusec,$/;"	x
+opt_waitinusec	main.c	/^	opt_waitinusec	= FALSE,$/;"	v
+opt_winid_order	globals.h	/^		opt_winid_order,$/;"	x
+opt_winid_order	main.c	/^	opt_winid_order = FALSE,$/;"	v
+orig	hping2.h	/^	__u32 orig;$/;"	m	struct:icmp_tstamp_data
+origin	ars.h	/^			u_int8_t origin[4];$/;"	m	struct:ars_tcpopt::__anon11::__anon14
+out_of_sequence_pkt	globals.h	/^		out_of_sequence_pkt,$/;"	x
+out_of_sequence_pkt	main.c	/^	out_of_sequence_pkt = 0,$/;"	v
+p_default	ars.h	/^	void *p_default[ARS_TYPE_SIZE];$/;"	m	struct:ars_packet
+p_error	ars.h	/^	char *p_error;$/;"	m	struct:ars_packet
+p_layer	ars.h	/^	struct ars_layer p_layer[ARS_MAX_LAYER];$/;"	m	struct:ars_packet	typeref:struct:ars_packet::ars_layer
+p_layer_nr	ars.h	/^	int p_layer_nr;$/;"	m	struct:ars_packet
+p_options	ars.h	/^	int p_options;$/;"	m	struct:ars_packet
+packet	apdutils.c	/^char packet[] = "ip(ihl=5,ver=4,tos=00,totlen=1340,id=43581,fragoff=0,mf=0,df=1,rf=0,ttl=4,proto=6,cksum=9029,saddr=192.168.1.6,daddr=195.14.221.49)+tcp(sport=55617,dport=80,seq=4048054653,ack=1246471424,x2=0,off=5,flags=pa,win=8576,cksum=6082,urp=0)+data(hex=0cd68e94650059b4dc81b1562d7288254c3faf5d651b75d1393abc6dcd5f5d1ad2f56b9bca9edc84b9212890b9407232b0d0e10222b4391e2e915c8ba4c0cb89c540d4c1389503c2d48b2c60a6c73500603cdba72144eccbd8f4cfc020af7d540fe99ea8fd0975371fb8f8167a0a1b94cf53e208cdce36dc2b692a857b958822ddac8d2cd1e8d9966a0361f345988084d558d8679f1393de4781ac8499178059f9f01d940cb2a8dfc288e500637c6a424ebde14068523291dc92bcec2e5eb4c8c53ad4192ff1e41e9e9e7cd5e389ef9dd3b9062d8509ac2f88a41863f009dfb3b08c041a68369561fa2bd9ffc09289d8719c2d52d6a687f3b837bbc51eb2a3aac50fafd2abf1a8374ca8cf6ab76a8a562e7e0995b43508a8a39abc6760738e4ef532b8968ef460719c2070eaa38fb67325e4f0903fe407b203a2d3d1bfb78dc0c430fbfc20029b0a2445801f9478beee2d964d95241edfa6322f34515b39ebbf2de43a3c533ba870ea8ef78b3baa70fb1d3491dcf931459395e92497205b633af5f426a921b79a28c5e1b86558f7b7e608c3cb0afa15dc8c60ad1897944074c712e141ae9ed44f3431c9e51ab6f92ab8248cc24279db669f6da1fecdf9ea299b24d94e7847545eab663e77e3a23fe133a8c7d18d23efbfa0a236586c315455ecae03c1d2e23bf713e9a240b26b83c5e5ead196581805ac6132f1454fb4c91a16d9cada46b1be728d697167d9b3c29cdcea3b04346116457bba715203bd45a3540d57a71368e9a015ae8d36368176752fdd93e975fd18e2797f53408aba273a20bad8f7f7763c20954e4aa371e0bbd4c03a9963a175fdd06457b3e39732e65d9443959adc1555e4bd59dcb7855bf204e31f04ad8ffb956e04a10896fdf861bd42408e10f47d38cffb3c9719bcff739265e3591bf5a2beedd9c90dc8a72c2dee5dc896914dee4c48f43c977736e4112255e4cd10d7812693b99f4484aa70d632f7ae94ce0bda674df8775fd017e40baae817de058b4563cba5539c5d4d580a754a3a042e49a6e56c7ce889388a606fde17ee8e25fa1c30abdd924564a3c03e5d2b7f265f4d030060b5d24da79c32a518c3febc3d8c2386298bfebbaee444be0252ac5ec5c93a212d4ebc0dd8e227629eb28161bb9037e6df3c02191a4a7b7c0c4187c99b99801399dbf325fcff261a97638c39656f32d292c3527004f7c00d1b51131d5d997a6a9934885ca44b4d856bddcb12b80f9484b3a5885e0c79e63ec1374efece0f7140df35c949dcaa49af4165d754dd1ff6d7747864ebfe1aac0d3979923e2cffc0ea2da693b10c2c794957161f382811d0196d69ab9b3b8c5edc8338f17632470f50ec34ceaecf4c6e30e6131db340a51f7113b614993f22b582bb47f8caffd8bca5aff325443a55fe16f2f57d8cdf86cd131062672b48122bdaabd844abf20ccfd8d82069c2120e706a4894709758fcd35c6e57a6fb64d6c03d14ef4ac5ba6347cc92b6d899cd6cdbf9e8be573eff7550dbb453cb5ac1fa9900ce73cd57cdc3b95aaad0d293a9c7e4a5054f8a46c9052d44f0d4b3fc5f6670a9c318f44d429f35ca4c1ce1b6d39daf02fa05c8decc46889a6fcf0f4491e563cbde158dc046f52cd328ac40c9c26629f6f42de60f9c7d52fe131a16b04a37c4967794ee4aa76c28463e8ca393abd6ca7aa41a9155db94a7d14f7a5f6ebaa2ee6751f0b139b403d524f433c939c382001fc1c6e9be709b55fcf01b01996889529917fabae23310a54878ca94601cf3182e9a5b01eabb588ff953c91205c56b54a2e125aa9c1c9753e5515566d027a827e55e1a6863cc82)+ip(ihl=5,ver=4,tos=10,totlen=1340,id=43581,fragoff=0,mf=0,df=1,rf=0,ttl=4,proto=6,cksum=9029,saddr=192.168.1.6,daddr=195.14.221.49)+tcp(sport=55617,dport=80,seq=4048054653,ack=1246471424,x2=0,off=5,flags=pa,win=8576,cksum=6082,urp=0)+ip(ihl=5,ver=4,tos=20,totlen=1340,id=43581,fragoff=0,mf=0,df=1,rf=0,ttl=4,proto=6,cksum=9029,saddr=192.168.1.6,daddr=195.14.221.49)";$/;"	v
+pad	ars.h	/^	u_int8_t pad;$/;"	m	struct:mc_context
+parse_options	hping2.h	/^int	parse_options(int, char**);		\/* option parser *\/$/;"	p	signature:(int, char**)
+parse_options	parseoptions.c	/^int parse_options(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+parse_ports	scan.c	/^static int parse_ports(struct portinfo *pi, char *ports)$/;"	f	file:	signature:(struct portinfo *pi, char *ports)
+parse_route	parseoptions.c	/^void parse_route(unsigned char *route, unsigned int *route_len, char *str)$/;"	f	signature:(unsigned char *route, unsigned int *route_len, char *str)
+pcap_read	script.c	/^int pcap_read(pcap_t *, int cnt, pcap_handler, u_char *); \/* pcap-int.h *\/$/;"	p	file:	signature:(pcap_t *, int cnt, pcap_handler, u_char *)
+pcap_recv	hping2.h	/^int	pcap_recv(char *, unsigned int);	\/* libpcap api wrapper *\/$/;"	p	signature:(char *, unsigned int)
+pcap_recv	libpcap_stuff.c	/^int pcap_recv(char *packet, unsigned int size)$/;"	f	signature:(char *packet, unsigned int size)
+pcapfp	globals.h	/^extern pcap_t *pcapfp;$/;"	x
+pcapfp	main.c	/^pcap_t *pcapfp;$/;"	v
+phy_id	interface.h	/^    __u16	phy_id;$/;"	m	struct:mii_data
+port_to_name	scan.c	/^static char *port_to_name(int port)$/;"	f	file:	signature:(int port)
+portinfo	scan.c	/^struct portinfo {$/;"	s	file:
+print_statistics	hping2.h	/^void	print_statistics(int);$/;"	p	signature:(int)
+print_statistics	statistics.c	/^void	print_statistics(int signal_id)$/;"	f	signature:(int signal_id)
+print_tcp_timestamp	waitpacket.c	/^static void print_tcp_timestamp(void *tcp, int tcpsize);$/;"	p	file:	signature:(void *tcp, int tcpsize)
+print_tcp_timestamp	waitpacket.c	/^void print_tcp_timestamp(void *tcp, int tcpsize)$/;"	f	signature:(void *tcp, int tcpsize)
+proc	script.c	/^	int (*proc)(ClientData cd, Tcl_Interp *i, int, Tcl_Obj *CONST objv[]);$/;"	m	struct:subcmd	file:
+protocol	ars.h	/^	__u8  protocol;$/;"	m	struct:ars_pseudohdr
+protocol	ars.h	/^        __u8    protocol;$/;"	m	struct:ars_iphdr
+protocol	hping2.h	/^	__u8  protocol;$/;"	m	struct:pseudohdr
+protocol	hping2.h	/^        __u8    protocol;$/;"	m	struct:myiphdr
+pseudohdr	hping2.h	/^struct pseudohdr$/;"	s
+ptr	ars.h	/^			u_int8_t ptr;$/;"	m	struct:ars_ipopt::__anon5::__anon10
+ptr	ars.h	/^			u_int8_t ptr;$/;"	m	struct:ars_ipopt::__anon5::__anon7
+ptr	ars.h	/^			u_int8_t ptr;$/;"	m	struct:ars_ipopt::__anon5::__anon8
+r_cset	sbignum-tables.c	/^int8_t r_cset[256] = {$/;"	v
+r_cset	sbignum-tables.h	/^extern int8_t r_cset[256];$/;"	x
+raw_ip_protocol	globals.h	/^		raw_ip_protocol;$/;"	x
+raw_ip_protocol	main.c	/^	raw_ip_protocol	= DEFAULT_RAW_IP_PROTOCOL;$/;"	v
+rawsocket	script.c	/^static int rawsocket = -1;$/;"	v	file:
+rc4_sbox	random.c	/^static unsigned char rc4_sbox[256];$/;"	v	file:
+rc4_sbox	sbignum.c	/^static unsigned char rc4_sbox[256];$/;"	v	file:
+rc4_seedflag	random.c	/^static int rc4_seedflag = 0;$/;"	v	file:
+rc4_seedflag	sbignum.c	/^static int rc4_seedflag = 0;$/;"	v	file:
+read_packet	hping2.h	/^int	read_packet(void *packet, int size);$/;"	p	signature:(void *packet, int size)
+read_packet	waitpacket.c	/^int read_packet(void *packet, int size)$/;"	f	signature:(void *packet, int size)
+receiver	scan.c	/^static void receiver(struct portinfo *pi, int childpid)$/;"	f	file:	signature:(struct portinfo *pi, int childpid)
+recv	hping2.h	/^	__u32 recv;$/;"	m	struct:icmp_tstamp_data
+recv_beep	waitpacket.c	/^void recv_beep(void)$/;"	f	signature:(void)
+recv_handler	script.c	/^struct recv_handler {$/;"	s	file:
+recv_handlers	script.c	/^struct recv_handler recv_handlers[HPING_IFACE_MAX];$/;"	v	typeref:struct:recv_handler
+recv_icmp	waitpacket.c	/^int recv_icmp(void *packet, size_t size)$/;"	f	signature:(void *packet, size_t size)
+recv_icmp	waitpacket.c	/^static int recv_icmp(void *packet, size_t size);$/;"	p	file:	signature:(void *packet, size_t size)
+recv_pkt	globals.h	/^		recv_pkt,$/;"	x
+recv_pkt	main.c	/^	recv_pkt = 0,$/;"	v
+recv_tcp	waitpacket.c	/^int recv_tcp(void *packet, size_t size)$/;"	f	signature:(void *packet, size_t size)
+recv_tcp	waitpacket.c	/^static int recv_tcp(void *packet, size_t size);$/;"	p	file:	signature:(void *packet, size_t size)
+recv_udp	waitpacket.c	/^int recv_udp(void *packet, size_t size)$/;"	f	signature:(void *packet, size_t size)
+recv_udp	waitpacket.c	/^static int recv_udp(void *packet, size_t size);$/;"	p	file:	signature:(void *packet, size_t size)
+reg_num	interface.h	/^    __u16	reg_num;$/;"	m	struct:mii_data
+relativize_id	hping2.h	/^int	relativize_id(int seqnum, int *ip_id);	\/* compute relative id *\/$/;"	p	signature:(int seqnum, int *ip_id)
+relativize_id	relid.c	/^int relativize_id(int seqnum, int *ip_id)$/;"	f	signature:(int seqnum, int *ip_id)
+reliability	ars.h	/^	__u8	reliability;$/;"	m	struct:ars_igrpentry
+remote	globals.h	/^extern struct sockaddr_in icmp_ip_src, icmp_ip_dst, icmp_gw, local, remote;$/;"	x
+remote	main.c	/^	remote;$/;"	v	typeref:struct:
+resolve	hping2.h	/^void	resolve(struct sockaddr*, char*);	\/* resolver, exit on err. *\/$/;"	p	signature:(struct sockaddr*, char*)
+resolve	resolve.c	/^void resolve(struct sockaddr *addr, char *hostname)$/;"	f	signature:(struct sockaddr *addr, char *hostname)
+resolve_addr	hping2.h	/^int	resolve_addr(struct sockaddr * addr, char *hostname); \/* resolver *\/$/;"	p	signature:(struct sockaddr * addr, char *hostname)
+resolve_addr	resolve.c	/^int resolve_addr(struct sockaddr * addr, char *hostname)$/;"	f	signature:(struct sockaddr * addr, char *hostname)
+retry	scan.c	/^	int retry;$/;"	m	struct:portinfo	file:
+rh_handlerscript	script.c	/^	Tcl_Obj *rh_handlerscript; \/* the [hpingevent] handler script. *\/$/;"	m	struct:recv_handler	file:
+rh_ifname	script.c	/^	char rh_ifname[HPING_IFNAME_LEN];$/;"	m	struct:recv_handler	file:
+rh_interp	script.c	/^	Tcl_Interp *rh_interp; \/* If not null has [hpingevent] handler. *\/$/;"	m	struct:recv_handler	file:
+rh_linkhdrsize	script.c	/^	int rh_linkhdrsize; \/* -1 means autodetection *\/$/;"	m	struct:recv_handler	file:
+rh_pcap_errbuf	script.c	/^	char rh_pcap_errbuf[PCAP_ERRBUF_SIZE];$/;"	m	struct:recv_handler	file:
+rh_pcapfp	script.c	/^	pcap_t *rh_pcapfp;$/;"	m	struct:recv_handler	file:
+route_help	hping2.h	/^void	route_help(void);			\/* show the route help *\/$/;"	p	signature:(void)
+route_help	usage.c	/^void route_help(void)$/;"	f	signature:(void)
+rr	ars.h	/^		} rr;		\/* record route *\/$/;"	m	union:ars_ipopt::__anon5	typeref:struct:ars_ipopt::__anon5::__anon8
+rsign	globals.h	/^		rsign[1024],$/;"	x
+rsign	main.c	/^	rsign		[1024], \/* reverse sign (hping -> gniph) *\/$/;"	v
+rtt	hping2.h	/^int	rtt(int *seqp, int recvport, float *ms_delay);	\/* compute round trip time *\/$/;"	p	signature:(int *seqp, int recvport, float *ms_delay)
+rtt	rtt.c	/^int rtt(int *seqp, int recvport, float *ms_delay)$/;"	f	signature:(int *seqp, int recvport, float *ms_delay)
+rtt_avg	globals.h	/^		rtt_avg;$/;"	x
+rtt_avg	main.c	/^	rtt_avg = 0;$/;"	v
+rtt_max	globals.h	/^		rtt_max,$/;"	x
+rtt_max	main.c	/^	rtt_max = 0,$/;"	v
+rtt_min	globals.h	/^		rtt_min,$/;"	x
+rtt_min	main.c	/^	rtt_min = 0,$/;"	v
+s	ars.h	/^			u_int16_t s;$/;"	m	struct:ars_ipopt::__anon5::__anon6
+s	sbignum.h	/^	u_int32_t s;	\/* sign. non-zero if negative *\/$/;"	m	struct:struct_sbnz
+sack	ars.h	/^		} sack[4]; \/* max 4 SACK blocks in 40 bytes of space *\/$/;"	m	union:ars_tcpopt::__anon11	typeref:struct:ars_tcpopt::__anon11::__anon14
+saddr	ars.h	/^	__u32 saddr;$/;"	m	struct:ars_pseudohdr
+saddr	ars.h	/^        __u32   saddr;$/;"	m	struct:ars_iphdr
+saddr	hping2.h	/^	__u32 saddr;$/;"	m	struct:pseudohdr
+saddr	hping2.h	/^        __u32   saddr;$/;"	m	struct:myiphdr
+sbn_basepow	sbignum-tables.h	/^struct sbn_basepow {$/;"	s
+sbn_chartoval	sbignum.c	1648;"	d	file:
+sbn_err	sbignum.h	/^enum sbn_err {$/;"	g
+sbn_rand	sbignum.c	/^u_int32_t sbn_rand(void)$/;"	f	signature:(void)
+sbn_rand	sbignum.h	/^u_int32_t sbn_rand(void);$/;"	p	signature:(void)
+sbn_rand_init	sbignum.c	/^static void	sbn_rand_init(void);$/;"	p	file:	signature:(void)
+sbn_rand_init	sbignum.c	/^void sbn_rand_init(void)$/;"	f	signature:(void)
+sbn_seed	sbignum.c	/^void sbn_seed(void *seed, size_t len)$/;"	f	signature:(void *seed, size_t len)
+sbn_seed	sbignum.h	/^void	sbn_seed(void *seed, size_t len);$/;"	p	signature:(void *seed, size_t len)
+sbn_valtochar	sbignum.c	1649;"	d	file:
+scanmain	hping2.h	/^void	scanmain(void);$/;"	p	signature:(void)
+scanmain	scan.c	/^void scanmain(void)$/;"	f	signature:(void)
+sec	ars.h	/^		} sec;		\/* security *\/$/;"	m	union:ars_ipopt::__anon5	typeref:struct:ars_ipopt::__anon5::__anon6
+sec	hping2.h	/^	time_t sec;$/;"	m	struct:delaytable_element
+select_next_random_dest	send.c	/^static void select_next_random_dest(void)$/;"	f	file:	signature:(void)
+select_next_random_source	send.c	/^static void select_next_random_source(void)$/;"	f	file:	signature:(void)
+send_hcmp	hping2.h	/^void	send_hcmp(__u8 type, __u32 arg);	\/* send hcmp packets *\/$/;"	p	signature:(__u8 type, __u32 arg)
+send_hcmp	sendhcmp.c	/^void    send_hcmp(__u8 type, __u32 arg)$/;"	f	signature:(__u8 type, __u32 arg)
+send_icmp	hping2.h	/^void	send_icmp(void);$/;"	p	signature:(void)
+send_icmp	sendicmp.c	/^void send_icmp(void)$/;"	f	signature:(void)
+send_icmp_address	sendicmp.c	/^void send_icmp_address(void)$/;"	f	signature:(void)
+send_icmp_address	sendicmp.c	/^void send_icmp_address(void);$/;"	p	file:	signature:(void)
+send_icmp_echo	sendicmp.c	/^void send_icmp_echo(void)$/;"	f	signature:(void)
+send_icmp_echo	sendicmp.c	/^void send_icmp_echo(void);$/;"	p	file:	signature:(void)
+send_icmp_other	sendicmp.c	/^void send_icmp_other(void)$/;"	f	signature:(void)
+send_icmp_other	sendicmp.c	/^void send_icmp_other(void);$/;"	p	file:	signature:(void)
+send_icmp_timestamp	sendicmp.c	/^void send_icmp_timestamp(void)$/;"	f	signature:(void)
+send_icmp_timestamp	sendicmp.c	/^void send_icmp_timestamp(void);$/;"	p	file:	signature:(void)
+send_ip	hping2.h	/^void	send_ip (char*, char*, char*, unsigned int, int, unsigned short,$/;"	p	signature:(char*, char*, char*, unsigned int, int, unsigned short, char*, char)
+send_ip	sendip.c	/^void send_ip (char* src, char *dst, char *data, unsigned int datalen,$/;"	f	signature:(char* src, char *dst, char *data, unsigned int datalen, int more_fragments, unsigned short fragoff, char *options, char optlen)
+send_ip_handler	hping2.h	/^void	send_ip_handler(char *packet, unsigned int size); \/* fragmentation$/;"	p	signature:(char *packet, unsigned int size)
+send_ip_handler	sendip_handler.c	/^void send_ip_handler(char *packet, unsigned int size)$/;"	f	signature:(char *packet, unsigned int size)
+send_packet	hping2.h	/^void	send_packet (int signal_id);$/;"	p	signature:(int signal_id)
+send_packet	send.c	/^void send_packet (int signal_id)$/;"	f	signature:(int signal_id)
+send_rawip	hping2.h	/^void	send_rawip (void);$/;"	p	signature:(void)
+send_rawip	sendrawip.c	/^void send_rawip(void)$/;"	f	signature:(void)
+send_tcp	hping2.h	/^void	send_tcp(void);$/;"	p	signature:(void)
+send_tcp	sendtcp.c	/^void send_tcp(void)$/;"	f	signature:(void)
+send_udp	hping2.h	/^void	send_udp(void);$/;"	p	signature:(void)
+send_udp	sendudp.c	/^void send_udp(void)$/;"	f	signature:(void)
+sender	scan.c	/^static void sender(struct portinfo *pi)$/;"	f	file:	signature:(struct portinfo *pi)
+sending_wait	globals.h	/^		sending_wait,$/;"	x
+sending_wait	main.c	/^	sending_wait = DEFAULT_SENDINGWAIT,	\/* see DEFAULT_SENDINGWAIT *\/$/;"	v
+sent_pkt	globals.h	/^		sent_pkt,$/;"	x
+sent_pkt	main.c	/^	sent_pkt = 0,$/;"	v
+sentms	scan.c	/^	time_t sentms; \/* Upss... added this that requires locking, FIXME *\/$/;"	m	struct:portinfo	file:
+seq	hping2.h	/^	int seq;$/;"	m	struct:delaytable_element
+seqnum	hcmp.h	/^		__u16 seqnum;$/;"	m	union:hcmphdr::__anon19
+sequence	ars.h	/^			__u16   sequence;$/;"	m	struct:ars_icmphdr::__anon17::__anon18
+sequence	globals.h	/^		sequence,$/;"	x
+sequence	hping2.h	/^			__u16   sequence;$/;"	m	struct:myicmphdr::__anon1::__anon2
+sequence	main.c	/^	sequence	= 0,$/;"	v
+set_ack	globals.h	/^		set_ack,$/;"	x
+set_ack	main.c	/^	set_ack,$/;"	v
+set_seqnum	globals.h	/^		set_seqnum,$/;"	x
+set_seqnum	main.c	/^	set_seqnum = FALSE,$/;"	v
+shift	ars.h	/^			u_int8_t shift;$/;"	m	struct:ars_tcpopt::__anon11::__anon13
+shm_attach	scan.c	/^static void *shm_attach(void)$/;"	f	file:	signature:(void)
+shm_close	scan.c	/^static void shm_close(void *addr)$/;"	f	file:	signature:(void *addr)
+shm_creat	scan.c	/^static int shm_creat(int size)$/;"	f	file:	signature:(int size)
+shm_detach	scan.c	/^static int shm_detach(void *addr)$/;"	f	file:	signature:(void *addr)
+shm_init	scan.c	/^static void *shm_init(int size)$/;"	f	file:	signature:(int size)
+shm_rm	scan.c	/^static int shm_rm(void)$/;"	f	file:	signature:(void)
+show_help	configure	/^show_help()$/;"	f
+show_usage	hping2.h	/^void	show_usage(void);$/;"	p	signature:(void)
+show_usage	usage.c	/^void	show_usage(void)$/;"	f	signature:(void)
+show_version	hping2.h	/^void	show_version(void);$/;"	p	signature:(void)
+show_version	version.c	/^void show_version(void)$/;"	f	signature:(void)
+sid	ars.h	/^		} sid;		\/* stream id *\/$/;"	m	union:ars_ipopt::__anon5	typeref:struct:ars_ipopt::__anon5::__anon9
+sign	globals.h	/^		sign[1024],$/;"	x
+sign	main.c	/^	sign		[1024],$/;"	v
+signlen	globals.h	/^		signlen,$/;"	x
+signlen	main.c	/^	signlen,$/;"	v
+size	adbuf.h	/^	size_t size;	\/* total buffer size *\/$/;"	m	struct:adbuf
+size	ars.h	/^			u_int16_t size;$/;"	m	struct:ars_tcpopt::__anon11::__anon12
+size	ars.h	/^			u_int8_t size[4];$/;"	m	struct:ars_tcpopt::__anon11::__anon14
+socket_broadcast	hping2.h	/^void	socket_broadcast(int sd);		\/* set SO_BROADCAST option *\/$/;"	p	signature:(int sd)
+socket_broadcast	sockopt.c	/^void socket_broadcast(int sd)$/;"	f	signature:(int sd)
+socket_iphdrincl	hping2.h	/^void	socket_iphdrincl(int sd);		\/* set SO_IPHDRINCL option *\/$/;"	p	signature:(int sd)
+socket_iphdrincl	sockopt.c	/^void socket_iphdrincl(int sd)$/;"	f	signature:(int sd)
+sockpacket	globals.h	/^		sockpacket,$/;"	x
+sockpacket	main.c	/^	sockpacket,$/;"	v
+sockraw	globals.h	/^		sockraw,$/;"	x
+sockraw	main.c	/^	sockraw,$/;"	v
+spoofaddr	globals.h	/^		spoofaddr[1024],$/;"	x
+spoofaddr	main.c	/^	spoofaddr	[1024],$/;"	v
+src	ars.h	/^		} src;		\/* loose and strict source routing *\/$/;"	m	union:ars_ipopt::__anon5	typeref:struct:ars_ipopt::__anon5::__anon7
+src	hping2.h	/^	int src;$/;"	m	struct:delaytable_element
+src	waitpacket.c	/^static struct in_addr src, dst;$/;"	v	typeref:struct:in_addr	file:
+src_id	globals.h	/^		src_id,$/;"	x
+src_id	main.c	/^	src_id		= -1, \/* random *\/$/;"	v
+src_port	globals.h	/^		src_port,$/;"	x
+src_port	main.c	/^	src_port,$/;"	v
+src_thoff	globals.h	/^		src_thoff,$/;"	x
+src_thoff	main.c	/^	src_thoff 	= (TCPHDR_SIZE >> 2),$/;"	v
+src_ttl	globals.h	/^		src_ttl,$/;"	x
+src_ttl	main.c	/^	src_ttl		= DEFAULT_TTL,$/;"	v
+src_winsize	globals.h	/^		src_winsize,$/;"	x
+src_winsize	main.c	/^	src_winsize	= DEFAULT_SRCWINSIZE,$/;"	v
+ssr	globals.h	/^			ssr[255];$/;"	x
+ssr	main.c	/^	ssr		[255] = {0};$/;"	v
+ssr_length	globals.h	/^		ssr_length,$/;"	x
+ssr_length	main.c	/^	ssr_length = 0,$/;"	v
+status	hping2.h	/^	int status;$/;"	m	struct:delaytable_element
+strftok	hstring.c	/^size_t strftok(char *sep, char *str, char **tptrs, size_t nptrs)$/;"	f	signature:(char *sep, char *str, char **tptrs, size_t nptrs)
+strftok	hstring.h	/^size_t strftok(char *sep, char *str, char **tptrs, size_t nptrs);$/;"	p	signature:(char *sep, char *str, char **tptrs, size_t nptrs)
+strinitcmp	antigetopt.c	/^int strinitcmp(char *a, char *b)$/;"	f	signature:(char *a, char *b)
+strinitcmp	antigetopt.c	/^static int strinitcmp(char *a, char *b);$/;"	p	file:	signature:(char *a, char *b)
+strisnum	hstring.c	/^int strisnum(char *s)$/;"	f	signature:(char *s)
+strisnum	hstring.h	/^int strisnum(char *s);$/;"	p	signature:(char *s)
+strlcpy	ars.h	/^size_t strlcpy(char *dst, const char *src, size_t siz);$/;"	p	signature:(char *dst, const char *src, size_t siz)
+strlcpy	gethostname.c	/^size_t strlcpy(char *dst, const char *src, size_t siz);$/;"	p	file:	signature:(char *dst, const char *src, size_t siz)
+strlcpy	hping2.h	/^size_t strlcpy(char *dst, const char *src, size_t siz);$/;"	p	signature:(char *dst, const char *src, size_t siz)
+strlcpy	strlcpy.c	/^size_t strlcpy(dst, src, siz)$/;"	f
+struct_sbnz	sbignum.h	/^struct struct_sbnz {$/;"	s
+subcmd	script.c	/^struct subcmd {$/;"	s	file:
+subcmds	script.c	/^} subcmds[] = {$/;"	v	typeref:struct:subcmd
+suidtester	parseoptions.c	/^static int suidtester(void)$/;"	f	file:	signature:(void)
+system	ars.h	/^	__u16	system;$/;"	m	struct:ars_igrphdr
+targetname	globals.h	/^		targetname[1024],$/;"	x
+targetname	main.c	/^	targetname	[1024],$/;"	v
+targetstraddr	globals.h	/^		targetstraddr[1024],$/;"	x
+targetstraddr	main.c	/^	targetstraddr	[1024],$/;"	v
+tcc	ars.h	/^			u_int8_t tcc[3];$/;"	m	struct:ars_ipopt::__anon5::__anon6
+tclMpzType	script.c	/^struct Tcl_ObjType tclMpzType = {$/;"	v	typeref:struct:Tcl_ObjType
+tcp_ack	globals.h	/^		tcp_ack;$/;"	x
+tcp_ack	main.c	/^	tcp_ack;$/;"	v
+tcp_exitcode	globals.h	/^		tcp_exitcode,$/;"	x
+tcp_exitcode	main.c	/^	tcp_exitcode	= 0,$/;"	v
+tcp_seqnum	globals.h	/^		tcp_seqnum,$/;"	x
+tcp_seqnum	main.c	/^	tcp_seqnum = FALSE,$/;"	v
+tcp_strflags	scan.c	/^static char *tcp_strflags(char *s, unsigned int flags)$/;"	f	file:	signature:(char *s, unsigned int flags)
+tcp_th_flags	globals.h	/^		tcp_th_flags,$/;"	x
+tcp_th_flags	main.c	/^	tcp_th_flags = 0,$/;"	v
+tester	antigetopt.c	/^	int (*tester)(void);$/;"	m	struct:ago_exception	file:
+th_ack	ars.h	/^	__u32	th_ack;                 \/* acknowledgement number *\/$/;"	m	struct:ars_tcphdr
+th_ack	hping2.h	/^	__u32	th_ack;                 \/* acknowledgement number *\/$/;"	m	struct:mytcphdr
+th_dport	ars.h	/^	__u16	th_dport;               \/* destination port *\/$/;"	m	struct:ars_tcphdr
+th_dport	hping2.h	/^	__u16	th_dport;               \/* destination port *\/$/;"	m	struct:mytcphdr
+th_flags	ars.h	/^	__u8    th_flags;$/;"	m	struct:ars_tcphdr
+th_flags	hping2.h	/^	__u8    th_flags;$/;"	m	struct:mytcphdr
+th_off	ars.h	/^		th_off:4;               \/* data offset *\/$/;"	m	struct:ars_tcphdr
+th_off	ars.h	/^	__u8    th_off:4,               \/* data offset *\/$/;"	m	struct:ars_tcphdr
+th_off	hping2.h	/^		th_off:4;               \/* data offset *\/$/;"	m	struct:mytcphdr
+th_off	hping2.h	/^	__u8    th_off:4,               \/* data offset *\/$/;"	m	struct:mytcphdr
+th_seq	ars.h	/^	__u32	th_seq;                 \/* sequence number *\/$/;"	m	struct:ars_tcphdr
+th_seq	hping2.h	/^	__u32	th_seq;                 \/* sequence number *\/$/;"	m	struct:mytcphdr
+th_sport	ars.h	/^	__u16	th_sport;               \/* source port *\/$/;"	m	struct:ars_tcphdr
+th_sport	hping2.h	/^	__u16	th_sport;               \/* source port *\/$/;"	m	struct:mytcphdr
+th_sum	ars.h	/^	__u16   th_sum;                 \/* checksum *\/$/;"	m	struct:ars_tcphdr
+th_sum	hping2.h	/^	__u16   th_sum;                 \/* checksum *\/$/;"	m	struct:mytcphdr
+th_urp	ars.h	/^	__u16   th_urp;                 \/* urgent pointer *\/$/;"	m	struct:ars_tcphdr
+th_urp	hping2.h	/^	__u16   th_urp;                 \/* urgent pointer *\/$/;"	m	struct:mytcphdr
+th_win	ars.h	/^	__u16   th_win;                 \/* window *\/$/;"	m	struct:ars_tcphdr
+th_win	hping2.h	/^	__u16   th_win;                 \/* window *\/$/;"	m	struct:mytcphdr
+th_x2	ars.h	/^		th_x2:4;                \/* (unused) *\/$/;"	m	struct:ars_tcphdr
+th_x2	ars.h	/^	__u8    th_x2:4,                \/* (unused) *\/$/;"	m	struct:ars_tcphdr
+th_x2	hping2.h	/^		th_x2:4;                \/* (unused) *\/$/;"	m	struct:mytcphdr
+th_x2	hping2.h	/^	__u8    th_x2:4,                \/* (unused) *\/$/;"	m	struct:mytcphdr
+timestamp	ars.h	/^		} timestamp;$/;"	m	union:ars_tcpopt::__anon11	typeref:struct:ars_tcpopt::__anon11::__anon16
+tos	ars.h	/^        __u8    tos;$/;"	m	struct:ars_iphdr
+tos	hping2.h	/^        __u8    tos;$/;"	m	struct:myiphdr
+tos_help	hping2.h	/^void	tos_help(void);				\/* show the TOS help *\/$/;"	p	signature:(void)
+tos_help	usage.c	/^void tos_help(void)$/;"	f	signature:(void)
+tot_len	ars.h	/^        __u16   tot_len;$/;"	m	struct:ars_iphdr
+tot_len	hping2.h	/^        __u16   tot_len;$/;"	m	struct:myiphdr
+tran	hping2.h	/^	__u32 tran;$/;"	m	struct:icmp_tstamp_data
+trimlastchar	rapd.c	/^void trimlastchar(char *s)$/;"	f	signature:(char *s)
+ts	ars.h	/^		} ts;		\/* timestamp *\/$/;"	m	union:ars_ipopt::__anon5	typeref:struct:ars_ipopt::__anon5::__anon10
+tsecr	ars.h	/^			u_int8_t tsecr[4];$/;"	m	struct:ars_tcpopt::__anon11::__anon16
+tsval	ars.h	/^			u_int8_t tsval[4];$/;"	m	struct:ars_tcpopt::__anon11::__anon16
+ttl	ars.h	/^        __u8    ttl;$/;"	m	struct:ars_iphdr
+ttl	hping2.h	/^        __u8    ttl;$/;"	m	struct:myiphdr
+type	ars.h	/^	__u8          type;$/;"	m	struct:ars_icmphdr
+type	hcmp.h	/^	__u8	type;$/;"	m	struct:hcmphdr
+type	hping2.h	/^	__u8          type;$/;"	m	struct:myicmphdr
+typedep	hcmp.h	/^	} typedep;$/;"	m	struct:hcmphdr	typeref:union:hcmphdr::__anon19
+u32pack	sbignum.c	139;"	d	file:
+u32tompz	sbignum.c	100;"	d	file:
+u32tompz	sbignum.c	106;"	d	file:
+u32tompz	sbignum.c	114;"	d	file:
+u_int16_t	fixtypes.h	/^typedef unsigned short         u_int16_t;$/;"	t
+u_int32_t	fixtypes.h	/^typedef unsigned int           u_int32_t;$/;"	t
+u_int8_t	fixtypes.h	/^typedef unsigned char          u_int8_t;$/;"	t
+uh_dport	ars.h	/^	__u16 uh_dport;     \/* destination port *\/$/;"	m	struct:ars_udphdr
+uh_dport	hping2.h	/^	__u16 uh_dport;     \/* destination port *\/$/;"	m	struct:myudphdr
+uh_sport	ars.h	/^	__u16 uh_sport;     \/* source port *\/$/;"	m	struct:ars_udphdr
+uh_sport	hping2.h	/^	__u16 uh_sport;     \/* source port *\/$/;"	m	struct:myudphdr
+uh_sum	ars.h	/^	__u16 uh_sum;       \/* udp checksum *\/$/;"	m	struct:ars_udphdr
+uh_sum	hping2.h	/^	__u16 uh_sum;       \/* udp checksum *\/$/;"	m	struct:myudphdr
+uh_ulen	ars.h	/^	__u16 uh_ulen;      \/* udp length *\/$/;"	m	struct:ars_udphdr
+uh_ulen	hping2.h	/^	__u16 uh_ulen;      \/* udp length *\/$/;"	m	struct:myudphdr
+un	ars.h	/^	} un;$/;"	m	struct:ars_icmphdr	typeref:union:ars_icmphdr::__anon17
+un	ars.h	/^	} un;$/;"	m	struct:ars_ipopt	typeref:union:ars_ipopt::__anon5
+un	ars.h	/^	} un;$/;"	m	struct:ars_tcpopt	typeref:union:ars_tcpopt::__anon11
+un	hping2.h	/^	} un;$/;"	m	struct:myicmphdr	typeref:union:myicmphdr::__anon1
+usec	hcmp.h	/^		__u32 usec;$/;"	m	union:hcmphdr::__anon19
+usec	hping2.h	/^	time_t usec;$/;"	m	struct:delaytable_element
+usec_delay	globals.h	/^extern struct itimerval usec_delay;$/;"	x
+usec_delay	main.c	/^struct itimerval usec_delay;$/;"	v	typeref:struct:itimerval
+val_in	interface.h	/^    __u16	val_in;$/;"	m	struct:mii_data
+val_out	interface.h	/^    __u16	val_out;$/;"	m	struct:mii_data
+version	ars.h	/^                version:4;$/;"	m	struct:ars_igrphdr
+version	ars.h	/^                version:4;$/;"	m	struct:ars_iphdr
+version	hping2.h	/^                version:4;$/;"	m	struct:myiphdr
+virtual_mtu	globals.h	/^		virtual_mtu,$/;"	x
+virtual_mtu	main.c	/^	virtual_mtu	= DEFAULT_VIRTUAL_MTU,$/;"	v
+wait_packet	hping2.h	/^void	wait_packet(void);			\/* handle incoming packets *\/$/;"	p	signature:(void)
+wait_packet	waitpacket.c	/^void wait_packet(void)$/;"	f	signature:(void)
+win	ars.h	/^		} win;$/;"	m	union:ars_tcpopt::__anon11	typeref:struct:ars_tcpopt::__anon11::__anon13
+zero	ars.h	/^	__u8  zero;$/;"	m	struct:ars_pseudohdr
+zero	hping2.h	/^	__u8  zero;$/;"	m	struct:pseudohdr

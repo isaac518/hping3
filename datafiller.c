@@ -61,7 +61,7 @@ restart: /* if EOF occurs, after rewind, restart */
 			goto restart;
 	}
 	else if (readed < size && opt_end == TRUE) {
-		fprintf(stderr, "EOF reached, wait some second than press "
+		fprintf(stderr, "EOF reached, wait some second then press "
 				"ctrl+c\n");
 		eof_reached = TRUE;
 	} else {

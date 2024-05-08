@@ -58,17 +58,17 @@ void listenmain(void)
 
 		if ((p = memstr(ip_packet, sign, size))) {
 			if (opt_verbose)
-				fprintf(stderr, "packet %d received\n", id);
+				fprintf(stderr, "packet %hd received\n", id);
 
 			if (opt_safe) {
 				if (id == exp_id)
 					exp_id++;
 				else {
 					if (opt_verbose)
-						fprintf(stderr, "packet not in sequence (id %d) received\n", id);
+						fprintf(stderr, "packet not in sequence (id %hd) received\n", id);
 					send_hcmp(HCMP_RESTART, exp_id);
 					if (opt_verbose)
-						fprintf(stderr, "HCMP restart from %d sent\n", exp_id);
+						fprintf(stderr, "HCMP restart from %hd sent\n", exp_id);
 					continue; /* discard this packet */
 				}
 			}

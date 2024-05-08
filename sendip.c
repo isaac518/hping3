@@ -72,6 +72,8 @@ void send_ip (char* src, char *dst, char *data, unsigned int datalen,
 			htons(getpid() & 255) :
 			htons((unsigned short) src_id);
 	}
+	if (opt_verbose) 
+        printf("src_id=%d id=%hd\n",src_id,ip->id);
 
 #if defined OSTYPE_FREEBSD || defined OSTYPE_NETBSD | defined OSTYPE_BSDI
 /* FreeBSD */
